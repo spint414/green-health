@@ -1,12 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import reportWebVitals from "./reportWebVitals";
+import RootRouter from './router/RootRouter';
+import "./assets/scss/main.scss";
+import "antd/dist/antd.css";
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <RootRouter/>
   </React.StrictMode>,
   document.getElementById('root')
 );

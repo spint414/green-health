@@ -1,0 +1,30 @@
+@import "./var.scss";
+
+@mixin txt-ellipsis($row: 1) {
+    display: -webkit-box;
+    -webkit-line-clamp: $row;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+  
+  @mixin r1024 {
+    @media (max-width: 1024px) {
+      @content;
+    }
+  }
+  @mixin r768 {
+    @media (max-width: 768px) {
+      @content;
+    }
+  }
+  @mixin r640 {
+    @media (max-width: 640px) {
+      @content;
+    }
+  }
+  @mixin r480 {
+    @media (max-width: 480px) {
+      @content;
+    }
+  }
+  

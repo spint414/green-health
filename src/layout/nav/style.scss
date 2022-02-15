@@ -1,0 +1,95 @@
+@import "../../assets/scss/mixin.scss";
+
+.nav {
+  .warp-nav-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0;
+    svg {
+      max-width: 300px;
+      @include r480() {
+        width: 200px;
+      }
+    }
+    ul {
+      display: flex;
+      margin-bottom: 0;
+      column-gap: 93px;
+      @include r1024() {
+        display: none !important;
+      }
+      li {
+        position: relative;
+        font-weight: 600;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        column-gap: 12px;
+        font-size: 18px;
+        svg {
+          max-width: 20px;
+        }
+        span {
+          color: $black;
+        }
+        .ant-input-prefix {
+          margin-right: 20px;
+        }
+        .ant-input-affix-wrapper {
+          border: none !important;
+          background-color: $grey2;
+          border-radius: 100px;
+          height: 46px;
+          input {
+            background-color: $grey2;
+            width: 218px;
+          }
+        }
+      }
+    }
+  }
+  .navlinks {
+    max-width: 100%;
+    padding-left: calc(50vw - 428px);
+    padding-right: calc(50vw - 428px);
+
+    .warp-nav-bottom {
+        ul {
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            li {
+            //   &:nth-child(1):hover {
+            //       background-color: transparent;
+            //     }
+                position: relative;
+                @include r1024() {
+                  display: none;
+                }
+                display: inline-block;
+                margin: 30px 10px;
+                a {
+                  font-size: 20px !important;
+                  line-height: 21px;
+                  font-weight: 600;
+                  width: 100%;
+                  display: flex;
+                  color: $white !important;
+                  svg {
+                    path {
+                      fill: $white;
+                    }
+                  }
+                }
+            }
+            .vl {
+                border-left: 1px solid $white;
+                height: 21px;
+            }
+        }
+    }
+  }
+}
