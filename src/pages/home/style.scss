@@ -305,11 +305,12 @@
     position: relative;
     width: 45%;
     text-align: start;
-    padding-left: 70px;
-    padding-right: 130px;
+    margin-left: 70px;
+    margin-right: 130px;
     @include r1024 {
-      width: 100%;
+      width: 90%;
       text-align: center;
+      margin: auto;
     }
   }
 
