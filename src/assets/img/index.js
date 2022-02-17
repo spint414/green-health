@@ -8,6 +8,9 @@ import Spoon from "./Spoon.png";
 import Jar from "./Jar.png";
 import BannerGreenmeal from "./BannerGreenmeal.png";
 import HomeBS from "./HomeBS.png";
+import News from "./News.png";
+import FooterBanner from "./FooterBanner.png";
+
 
 export {
     NavBanner,
@@ -19,5 +22,7 @@ export {
     Spoon,
     Jar,
     BannerGreenmeal,
-    HomeBS
+    HomeBS,
+    News,
+    FooterBanner
 }

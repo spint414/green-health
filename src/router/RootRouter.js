@@ -1,7 +1,7 @@
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 import { paths } from "../constant";
 import { Home } from "../pages/index";
-import { Nav } from "../layout/index";
+import { Nav, Footer } from "../layout/index";
 
 const RootRouter = () => {
   return (
@@ -10,6 +10,7 @@ const RootRouter = () => {
       <Switch>
         <Route exact path={paths.trang_chu} component={Home} />
       </Switch>
+    <Footer/>
     </BrowserRouter>
   );
 };

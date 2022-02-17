@@ -22,7 +22,12 @@ const Nav = () => {
       </div>
       <div
         className="container navlinks"
-        style={{ backgroundImage: "url(" + NavBanner + ")" }}
+        style={{
+          backgroundImage: "url(" + NavBanner + ")",
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+          backgroundRepeat: "no-repeat",
+        }}
       >
         <div className="warp-nav-bottom">
           <ul>
