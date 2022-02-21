@@ -2,8 +2,12 @@ import "./style.scss";
 import { Call, LogoGH, Search } from "../../assets/svg/index";
 import { NavBanner } from "../../assets/img/index";
 import { Input } from "antd";
+import { paths } from "../../constant";
+import { Link } from "react-router-dom";
+
 
 const Nav = () => {
+
   return (
     <section className="nav">
       <div className="container">
@@ -56,7 +60,7 @@ const Nav = () => {
               <div class="vl"></div>
             </li>
             <li>
-              <a href="/">Liên hệ</a>
+              <Link to={paths.lien_he}>Liên hệ</Link>
             </li>
           </ul>
         </div>

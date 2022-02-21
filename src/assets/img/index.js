@@ -10,6 +10,8 @@ import BannerGreenmeal from "./BannerGreenmeal.png";
 import HomeBS from "./HomeBS.png";
 import News from "./News.png";
 import FooterBanner from "./FooterBanner.png";
+import Banner5 from "./Banner5.png";
+import ContactBanner from "./ContactBanner.png";
 
 
 export {
@@ -24,5 +26,7 @@ export {
     BannerGreenmeal,
     HomeBS,
     News,
-    FooterBanner
+    FooterBanner,
+    Banner5,
+    ContactBanner
 }

@@ -1,3 +1,4 @@
 export const paths = {
-    trang_chu: "/"
+    trang_chu: "/",
+    lien_he: "/contact"
 };
