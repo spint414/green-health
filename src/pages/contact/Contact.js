@@ -13,7 +13,6 @@ import {
   YoutubeCl,
 } from "../../assets/svg";
 import "./style.scss";
-import cn from "classnames";
 
 const Contact = () => {
   return (
