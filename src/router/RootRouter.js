@@ -1,6 +1,6 @@
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 import { paths } from "../constant";
-import { Home, Contact, About, News, NewsDetail } from "../pages/index";
+import { Home, Contact, About, News, NewsDetail, Medicine, MedicineDetail } from "../pages/index";
 import { Nav, Footer } from "../layout/index";
 
 const RootRouter = () => {
@@ -13,6 +13,8 @@ const RootRouter = () => {
         <Route exact path={paths.chung_toi} component={About} />
         <Route exact path={paths.tin_tuc} component={News} />
         <Route exact path={paths.tin_tuc_wSlug} component={NewsDetail} />
+        <Route exact path={paths.duoc_lieu} component={Medicine} />
+        <Route exact path={paths.duoc_lieu_wSlug} component={MedicineDetail} />
       </Switch>
     <Footer/>
     </BrowserRouter>

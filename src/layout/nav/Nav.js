@@ -48,7 +48,7 @@ const Nav = () => {
               <div className="vl"></div>
             </li>
             <li>
-              <a href="/">Dược liệu</a>
+            <Link to={paths.duoc_lieu}>Dược liệu</Link>
             </li>
             <li>
               <div className="vl"></div>

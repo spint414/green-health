@@ -44,9 +44,14 @@ img {
 
 .container {
   width: 100%;
-  max-width: 1200px;
-  padding: 0 10px;
-  margin: 0 auto;
+  @include responsive_lg() {
+    padding-inline: 15px;
+  }
+
+  @include responsive_xl() {
+    padding-right: calc((100vw - #{$page-width-1200}) / 2);
+    padding-left: calc((100vw - #{$page-width-1200}) / 2);
+  }
 }
 
 a {

@@ -1,0 +1,84 @@
+@import "../../assets/scss/mixin.scss";
+
+.medicine-wrap {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
+    display: flex;
+    flex-wrap: wrap;
+
+    @include responsive_lg() {
+      flex-wrap: nowrap;
+    }
+
+    .right-col,
+    .left-col {
+      @include responsive_lg() {
+        width: 50%;
+      }
+    }
+
+    .left-col {
+      @include responsive_lg() {
+        margin-right: 50px;
+        padding-right: 50px;
+        border-right: 1px solid #c5c5c5;
+      }
+    }
+
+    .post-md {
+      margin-top: $gap;
+      padding-top: $gap;
+      border-top: 1px solid #c5c5c5;
+
+      @include responsive_sm() {
+        margin-top: calc(#{$gap} + 15px);
+      }
+
+      &:first-child {
+        margin-top: 0;
+        padding-top: 0;
+        border-top: none;
+      }
+
+      h3 {
+        @include txt-ellipsis(1);
+        font-size: 24px;
+        color: $blue1;
+        margin-bottom: $gap !important;
+        cursor: pointer;
+      }
+
+      .content {
+        display: flex;
+        gap: $gap;
+        flex-wrap: wrap;
+
+        @include responsive_sm() {
+          flex-wrap: nowrap;
+        }
+
+        img {
+          height: 200px;
+          object-fit: cover;
+          object-position: center;
+          border-radius: 10px;
+          cursor: pointer;
+          border: 1px solid #00000015;
+
+          @include responsive_sm() {
+            width: 55%;
+          }
+        }
+
+        p {
+          @include txt-ellipsis(8);
+          font-size: 16px;
+
+          @include responsive_sm() {
+            width: 45%;
+          }
+        }
+      }
+    }
+  }
