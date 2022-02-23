@@ -161,47 +161,6 @@
   }
 }
 
-#block-3 {
-  display: flex;
-  align-items: center;
-  gap: 50px;
-  text-align: center;
-  justify-content: center;
-  flex-wrap: wrap;
-  padding-top: 25px;
-  padding-bottom: 25px;
-
-  @include responsive_md() {
-    flex-wrap: nowrap;
-    text-align: start;
-  }
-
-  h2 {
-    font-size: 45px;
-    color: $blue1;
-    margin-bottom: calc(#{$gap} - 10px) !important;
-
-    @include responsive_md() {
-      font-size: 35px;
-    }
-  }
-
-  p {
-    font-size: 18px;
-  }
-
-  .download-btns {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    margin-left: -30px;
-
-    @include responsive_md() {
-      margin-left: 0;
-    }
-  }
-}
-
 :global(.ant-form-item-explain-error) {
   font-size: 14px !important;
   color: #a90000 !important;

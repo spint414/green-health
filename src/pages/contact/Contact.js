@@ -1,15 +1,12 @@
 import { Form, Input, Row } from "antd";
-import { Banner5, ContactBanner } from "../../assets/img";
+import { Banner5 } from "../../assets/img";
 import {
-  AppleStore,
   Envelop,
   FacebookCl,
-  GooglePlay,
   InstagramCl,
   LinkedinCl,
   Location,
   Phone,
-  QRCode,
   YoutubeCl,
 } from "../../assets/svg";
 import "./style.scss";
@@ -17,9 +14,6 @@ import "./style.scss";
 const Contact = () => {
   return (
     <section className="contact">
-      <div className="contact-banner">
-        <img src={ContactBanner} alt="contact-bg" />
-      </div>
       <div className="contact-info">
         <div className="container">
           <div className="social-info">
@@ -142,29 +136,6 @@ const Contact = () => {
               </Form>
             </div>
           </div>
-        </div>
-      </div>
-
-      <div id="block-3" className="container">
-        <div style={{ flexGrow: 10 }}>
-          <h2>TRẢI NGHIỆM ỨNG DỤNG H247</h2>
-          <p>
-            Trợ lý y tế ảo hỗ trợ người bệnh chăm sóc sức khoẻ và kết nối
-            <br />
-            dễ dàng tới các giải pháp y tế phù hợp.
-          </p>
-        </div>
-
-        <QRCode />
-
-        <div className="download-btns">
-          <a href="https://apps.apple.com/vn/app/h247/id1469410370?l=vi">
-            <AppleStore />
-          </a>
-
-          <a href="https://play.google.com/store/apps/details?id=com.deepcareio&hl=vi&gl=US">
-            <GooglePlay />
-          </a>
         </div>
       </div>
     </section>
