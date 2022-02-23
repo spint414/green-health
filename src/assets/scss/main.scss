@@ -44,6 +44,8 @@ img {
 
 .container {
   width: 100%;
+  padding-left: 10px;
+  padding-right: 10px;
   @include responsive_lg() {
     padding-inline: 15px;
   }

@@ -1,0 +1,88 @@
+@import "../../../assets/scss/mixin.scss";
+
+
+.container {
+  background-color: #f3f6fa;
+
+  @include responsive-xl() {
+    @include container-std();
+    padding-block: 0 !important;
+  }
+
+  .inner {
+    background-color: #fff;
+    padding: 25px 15px;
+
+    @include responsive-lg() {
+      padding-block: 50px;
+      padding-inline: 200px;
+    }
+  }
+
+  img {
+    width: 100%;
+    margin-block: $gap;
+  }
+
+  h1 {
+    font-size: 40px;
+    color: $blue1;
+
+    @include responsive-xs() {
+      font-size: 35px;
+    }
+  }
+
+  h2 {
+    font-size: 25px;
+    color: $blue1;
+    margin-block: 20px !important;
+  }
+
+  h3 {
+    font-size: 22px;
+    color: $blue1;
+    margin-block: 20px !important;
+  }
+
+  span {
+    font-size: 16px;
+    font-weight: 400 !important;
+    font-style: italic;
+  }
+
+  img {
+    height: 500px;
+    object-position: center;
+    margin-top: 0;
+
+    @include responsive-xs() {
+      height: 300px;
+    }
+  }
+
+  :global(.image) {
+    text-align: center;
+  }
+
+  ul {
+    margin-top: 10px;
+
+    li {
+      font-weight: 400 !important;
+    }
+  }
+
+  a {
+    font-weight: 400 !important;
+  }
+
+  strong {
+    color: #666;
+  }
+}
+
+.container-404 {
+  @include container-std();
+  min-height: 60vh;
+}

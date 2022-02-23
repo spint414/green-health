@@ -30,7 +30,7 @@ export default Medicine;
 
 const CompMd = memo(({ post, history }) => (
   <div key={post.key} className="post-md">
-    <h3 onClick={() => history.push(paths.tin_tuc_nSlug + post.slug)}>
+    <h3 onClick={() => history.push(paths.duoc_lieu_nSlug + post.slug)}>
       {post.title}
     </h3>
 
@@ -38,7 +38,7 @@ const CompMd = memo(({ post, history }) => (
       <img
         src={post.featureImg}
         alt=""
-        onClick={() => history.push(paths.tin_tuc_nSlug + post.slug)}
+        onClick={() => history.push(paths.duoc_lieu_nSlug + post.slug)}
       />
 
       <p>{post.excerpt}</p>

@@ -5,5 +5,7 @@ export const paths = {
     tin_tuc: "/news",
     tin_tuc_wSlug: "/tin-tuc/:slug",
     tin_tuc_nSlug: "/tin-tuc/",
-    duoc_lieu: "/medicine"
+    duoc_lieu: "/duoc-lieu",
+    duoc_lieu_wSlug: "/duoc-lieu/:slug",
+    duoc_lieu_nSlug: "/duoc-lieu/",
 };

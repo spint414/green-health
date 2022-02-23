@@ -1,230 +1,163 @@
 import {
   BienTheOmicron,
   BoTruongByt,
-  ChuyenGiaAstra,
+  // ChuyenGiaAstra,
   HoiNghiTrucTuyen,
   TramAtmOxy,
-  VnTiemVuotMoc,
+  // VnTiemVuotMoc,
   WhoLenTieng,
+
+  // DongTrungHaThao,
+  // DongTrungHaThao2,
+  // DongTrungHaThao3,
+  CaoKhoLinhChi,
+  // CaoDinhLang,
+  // BachThuat,
+  // BachThuat2,
 } from "./img";
 
 const drugs = [
   {
-    slug: `viet-nam-da-tiem-vuot-moc-155-trieu-lieu-vaccine-phong-covid-19`,
-    title: `Chiều 5/1: Việt Nam đã tiêm vượt mốc 155 triệu liều vaccine phòng COVID-19; hơn 5,6 triệu liều mũi 3`,
-    featureImg: VnTiemVuotMoc,
-    excerpt: `Đến 14h ngày 5/1, cả nước đã tiêm vượt mốc 155 triệu liều vaccine phòng COVID-19; có hơn 5,3 triệu liều tiêm mũi 3; 24 tỉnh, thành phố đã tiêm đủ 2 mũi cho trẻ từ 12-17 tuổi...
+    slug: `loi-ich-cua-cao-kho-linh-chi`,
+    title: `Lợi ích của Cao Khô Linh Chi`,
+    featureImg: CaoKhoLinhChi,
+    excerpt: `Theo sách Thần nông bản thảo và Bản thảo cương mục: "Thanh chi tính bình
+    không độc, chủ trị sáng mắt, bổ can khí, an thần, tăng trí nhớ,...".
     `,
     content: `
-    <h2>53 tỉnh, thành phố đã tiêm mũi 3 cho người trên 18 tuổi</h2>
-
-    <p>
-      Cập nhật trên Cổng thông tin tiêm chủng COVID-19 đến 14h ngày 5/1 cho biết cả
-      nước đã tiêm vượt mốc 155 triệu liều vaccine phòng COVID-19; trong đó ngày
-      4/1, tiêm được hơn 855 nghìn liều.
-    </p>
-    <br />
-    <p>
-      Tính đến ngày 4/1, số liều tiêm cho người từ 18 tuổi trở lên là 141.247.950
-      liều, trong đó có 70.124.783 mũi 1; 64.243.850 mũi 2; 1.211.108 mũi 3 (đối với
-      vaccine Abdala ); 1.926.484 liều bổ sung và 3.741.725 liều nhắc lại.
-    </p>
-    <br />
-    <p>
-      Tỷ lệ bao phủ ít nhất 01 liều vaccine là 99,7% và tỷ lệ tiêm đủ liều cơ bản là
-      91,3% dân số từ 18 tuổi trở lên. Theo khu vực, tỷ lệ này lần lượt ở miền Bắc
-      là 96,6% và 89,1%; miền Trung là 96,7% và 89,2%; Tây Nguyên là 98,1% và 85,9%;
-      miền Nam là 100% và 92,9%.
-    </p>
-    <br />
-    <p></p>
-    
     <div class="image">
-      <img src="${VnTiemVuotMoc}" alt="" />
-      <span>
-        Đến chiều 5/1, Việt Nam đã tiêm vượt mốc 155 triệu liều vaccine phòng
-        COVID-19;</span
-      >
+        <img src="${CaoKhoLinhChi}" alt="">
     </div>
-    <br/>
+    <br>
+    <h2>Tác dụng :</h2>
     <p>
-      Tỷ lệ bao phủ ít nhất 01 liều vaccine phòng COVID-19 cho dân số từ 18 tuổi trở
-      lên: 45/63 tỉnh, thành phố có tỷ lệ bao phủ trên 95%; 11/63 tỉnh, thành phố có
-      tỷ lệ bao phủ từ 90-95%; 07/63 tỉnh, thành phố còn lại có tỷ lệ bao phủ dưới
-      90% là Nam Định (88,7%), Hưng Yên (87,2%), Hà Tĩnh (89,0%), Lai Châu (89,1%),
-      Cao Bằng (89,6%), Quảng Bình (85,8%), Tây Ninh (88,7%).
+      Theo sách Thần nông bản thảo và Bản thảo cương mục: "Thanh chi tính bình
+      không độc, chủ trị sáng mắt, bổ can khí, an thần, tăng trí nhớ, chữa bệnh
+      thuộc huyết và thần kinh tim. Hoàng chi vị ngọt, tính bình, không độc, làm
+      mạnh hệ thống miễn dịch. Hắc chi vị mặn, tính bình không độc, chủ trị bí
+      tiểu tiện, sỏi thận, bệnh ở cơ quan bài tiết. Bạch chi vị cay, tính bình,
+      chủ trị hen, ích phế khí. Tử chi vị ngọt, tính ôn, không độc, chủ trị đau
+      nhức khớp xương, gân cốt".
     </p>
     <br />
     <p>
-      Tỷ lệ bao phủ đủ liều vaccine cho dân số từ 18 tuổi trở lên: 34/63 tỉnh, thành
-      phố có tỷ lệ bao phủ trên 90%; 23/63 tỉnh, thành phố có tỷ lệ bao phủ đủ 02
-      liều từ 80 – dưới 90% ; 06/63 tỉnh, thành phố còn lại có tỷ lệ bao phủ đủ 02
-      liều dưới 80%). Về tiêm liều bổ sung và liều nhắc lại- mũi 3, báo cáo của Bộ Y
-      tế cho biết đến ngày 3/1 đã có 53 tỉnh, thành phố triển khai tiêm với tổng số
-      hơn 5,6 triệu liều, trong đó TP HCM tiêm nhiều nhất với khoảng 1,5 triệu liều.
+      Theo sách Trung dược học: "Linh chi có tác dụng dưỡng tâm an thần, chỉ
+      khái bình suyễn, bổ khí dưỡng huyết, chủ trị các chứng tâm thần bất an,
+      khái thấu háo suyễn, khí huyết bất túc, tỳ vị hư nhược".
     </p>
-    <h2>
-      Hơn 13 triệu liều vaccine phòng COVID-19 đã được tiêm cho trẻ từ 12-17 tuổi
-    </h2>
+    <br />
+    <h2>Chỉ định :</h2>
     <p>
-      Về triển khai tiêm chủng vaccine phòng COVID-19 cho người từ 12-17 tuổi, báo
-      cáo của Bộ Y tế cho biết, các tỉnh, thành phố đã triển khai tiêm 13.096.441
-      liều, trong đó có 7.725.828 mũi 1 và 5.370.613 mũi 2. Tỷ lệ bao phủ ít nhất 01
-      liều vaccine là 86,0% và tỷ lệ bao phủ đủ liều cơ bản là 59,8% dân số từ 12
-      -17 tuổi.
+      Thuốc có tác dụng an thần, làm giảm hưng phấn của thần kinh trung ương.
+      Cồn Linh chi có tác dụng chống co giật do điện, giảm đau.
     </p>
     <br />
     <p>
-      Theo khu vực, tỷ lệ này lần lượt ở miền Bắc là 82,6% và 55,1%; miền Trung là
-      78,9% và 39,2%, Tây Nguyên là 92,3% và 29,1%, Miền Nam là 91,6% và 77,3%.
+      Có tác dụng chỉ khái hóa đàm, bình suyễn nhưng theo báo cáo kết quả thực
+      nghiệm có khác nhau.
     </p>
     <br />
     <p>
-      24 tỉnh thành, phố đã cơ bản bao phủ đủ liều cơ bản cho nhóm tuổi này là Hải
-      Phòng, Hà Nam, Ninh Bình, Bắc Ninh, Hưng Yên, Quảng Ninh, Hòa Bình, Lạng Sơn,
-      Yên Bái, Thừa Thiên Huế, Đà Nẵng, Khánh Hòa, Ninh Thuận, TP. Hồ Chí Minh, Tiền
-      Giang, Long An, Tây Ninh, An Giang, Bến Tre, Trà Vinh, Vĩnh Long, Bình Dương,
-      Bạc Liêu, Hậu Giang.
-    </p>
-    <h2>
-      Bình Phước: Tìm nguồn cung ứng oxy nhằm đáp ứng nhu cầu điều trị của bệnh nhân
-      COVID-19 nặng
-    </h2>
-    <p>
-      Từ ngày 28/12/2021 đến ngày 4/1/2022, trên địa bàn tỉnh Bình Phước ghi nhận
-      trên 5.400 ca COVID-19, trong đó trên 3.900 ca sàng lọc trong cộng đồng, chiếm
-      hơn 71%.
+      Có tác dụng bảo vệ gan, giải độc, hạ đường huyết và chống tác dụng của
+      chất phóng xạ. Còn có tác dụng bảo vệ dạ dày loét thực nghiệm.
     </p>
     <br />
     <p>
-      Do dịch lan rộng, số ca mắc tăng cao, Bình Phước đã nâng cấp độ dịch toàn tỉnh
-      từ cấp 2 lên cấp 3. Tỉnh có 10/11 huyện, thị xã, thành phố có dịch ở cấp độ 3;
-      80/111 xã, phường, thị trấn dịch ở cấp độ 3 (nguy cơ cao).
+      Có tác dụng cường tim, hạ huyết áp, nâng cao ngưỡng oxy, giúp cơ tim chịu
+      đựng được trạng thái thiếu máu, hạ lipid huyết, chống xơ cứng động mạch.
     </p>
     <br />
     <p>
-      Lãnh đạo tỉnh Bình Phước yêu cầu ngành y tế và các địa phương có sự phân luồng
-      rõ ràng trong việc điều trị bệnh nhân nhẹ, không triệu chứng tại nhà và bệnh
-      nhân nặng tại các cơ sở y tế. Ngành y tế cần chủ động, khẩn trương trong việc
-      tìm nguồn cung ứng oxy nhằm đáp ứng nhu cầu điều trị của bệnh nhân nặng.
+      Lượng polysaccarit cao có trong Linh chi, tăng cường sự miễn dịch của cơ
+      thể, có tác dụng chống tế bào ung thư.
     </p>
     <br />
     <p>
-      Hiện nay nhiều trung tâm y tế trên địa bàn tỉnh có giường hồi sức tích cực
-      nhưng không có hệ thống oxy trung tâm. Có nơi có hệ thống oxy trung tâm phục
-      vụ điều trị cấp cứu thông thường nhưng qua thời gian đã xuống cấp hoặc thiết
-      bị lạc hậu, không phù hợp với hệ thống nén khí áp lực cao phục vụ điều trị
-      COVID-19. Trong khi Bình Phước chưa có cơ sở sản xuất, cung ứng oxy y tế.
+      Germanium giúp khí huyết lưu thông, các tế bào hấp thu oxy tốt hơn. Acid
+      ganoderic có tác dụng chống dị ứng và chống viêm.
     </p>
     <br />
+    <h2>Liều lượng - cách dùng:</h2>
     <p>
-      Theo Trung tâm Kiểm soát bệnh tật tỉnh, đến nay trên địa bàn tỉnh Bình Phước
-      ghi nhận hơn 32.500 ca mắc COVID-19.
+      Liều thường dùng: 5 - 15g, thuốc bột mịn mỗi lần 1,5 - 3g, thuốc viên,
+      viên nang ( Thuốc Trung quốc mỗi nang có 300 - 350mg đông khô nấm Linh
+      chi), liều dùng 1 - 2 nang một ngày. Cũng có dạng thuốc tiêm bắp, dạng trà
+      Nhân sâm phối hợp Linh chi.
     </p>
-    <h2>
-      Quảng Bình: Thêm 59 ca mắc COVID-19, trong đó 21 ca liên quan đến chùm ca bệnh
-      xã Quảng Phú
-    </h2>
-    <p>
-      Theo thông tin tổng hợp từ Trung tâm Chỉ huy phòng, chống dịch COVID-19 tỉnh
-      Quảng Bình, trong 24 giờ qua (từ 6 giờ ngày 04/01/2022 đến 6 giờ ngày
-      05-01-2022), Quảng Bình ghi nhận thêm 59 ca mắc COVID-19, trong đó có 55 cộng
-      đồng, 21 ca liên quan chùm ca bệnh xã Quảng Phú (Quảng Trạch); trong ngày có
-      36 ca xuất viện.
-    </p>
-    <br />
-    <p>Tổng số người về từ vùng dịch dương tính với virus SARS-CoV-2 là 648 ca</p>
-    <br />
-    <p>
-      Tổng số ca COVID-19 của tỉnh đến nay là 3.994; số ca điều trị khỏi là 3.511,
-      còn 183 bệnh nhân đang điều trị, 7 ca tử vong; 233 bệnh nhân COVID-19 đang
-      điều trị tại nhà.
-    </p>
-    <br />
-    <p>
-      Hiện 95,63 % người trên 18 tuổi ở Quảng Bình đã tiêm vaccine phòng COVID-19
-      mũi 1; mũi 2 là gần 89,94%; Có 98% người trên 50 tuổi tại Quảng Bình tiêm đủ 2
-      mũi vaccine phòng COVID-19.
-    </p>
-    <br />
-    <span> Nguồn: suckhoedoisong.vn </span>
+    <br>
+    <span> Nguồn: thuocbietduoc.com.vn</span>
     `,
   },
   {
-    slug: `khong-the-cu-moi-6-thang-lai-tiem-cho-ca-hanh-tinh`,
-    title: `Chuyên gia phát triển AstraZeneca: "Không thể cứ mỗi 6 tháng lại tiêm cho cả hành tinh"`,
-    featureImg: ChuyenGiaAstra,
-    excerpt: `Một nhà khoa học hàng đầu từng tham gia phát triển vaccine Oxford-AstraZeneca, ngày 4.1 nói việc tiêm mũi vaccine tăng cường nhiều lần trong năm cho mọi người dân trên thế giới là điều không khả thi.`,
+    slug: `loi-ich-cua-cao-kho-linh-chi`,
+    title: `Lợi ích của Cao Khô Linh Chi`,
+    featureImg: CaoKhoLinhChi,
+    excerpt: `Theo sách Thần nông bản thảo và Bản thảo cương mục: "Thanh chi tính bình
+    không độc, chủ trị sáng mắt, bổ can khí, an thần, tăng trí nhớ,...".
+    `,
     content: `
+    <h1>LỢI ÍCH CỦA CAO KHÔ LINH CHI</h1>
     <div class="image">
-      <img src="${ChuyenGiaAstra}" alt="" />
+        <img src={CaoKhoLinhChi} alt="">
     </div>
-    
+    <br>
+    <h2>Tác dụng :</h2>
     <p>
-      "Chúng ta không thể cứ mỗi 6 tháng lại chủng ngừa cho cả hành tinh. Điều này
-      không bền vững hoặc không hợp lý”, giáo sư Andrew Pollard, người đứng đầu Liên
-      ủy ban vắc xin và tiêm chủng Vương quốc Anh (JCVI), trả lời phỏng vấn trên báo
-      Anh The Telegraph.
+      Theo sách Thần nông bản thảo và Bản thảo cương mục: "Thanh chi tính bình
+      không độc, chủ trị sáng mắt, bổ can khí, an thần, tăng trí nhớ, chữa bệnh
+      thuộc huyết và thần kinh tim. Hoàng chi vị ngọt, tính bình, không độc, làm
+      mạnh hệ thống miễn dịch. Hắc chi vị mặn, tính bình không độc, chủ trị bí
+      tiểu tiện, sỏi thận, bệnh ở cơ quan bài tiết. Bạch chi vị cay, tính bình,
+      chủ trị hen, ích phế khí. Tử chi vị ngọt, tính ôn, không độc, chủ trị đau
+      nhức khớp xương, gân cốt".
     </p>
     <br />
     <p>
-      “Theo tôi biết, chưa tới 10% dân số ở các nước nghèo được tiêm mũi vaccine đầu
-      tiên. Việc tiêm mũi thứ 4 trên toàn cầu là không khả thi”, ông Pollard nói
-      thêm.
+      Theo sách Trung dược học: "Linh chi có tác dụng dưỡng tâm an thần, chỉ
+      khái bình suyễn, bổ khí dưỡng huyết, chủ trị các chứng tâm thần bất an,
+      khái thấu háo suyễn, khí huyết bất túc, tỳ vị hư nhược".
     </p>
-    
     <br />
+    <h2>Chỉ định :</h2>
     <p>
-      Giáo sư Pollard là người đứng đầu Nhóm vắc xin Oxford, một trong số chuyên gia
-      tham gia phát triển vaccine Covid-19 AstraZeneca.
-    </p>
-    
-    <br />
-    <p>
-      Ông nhấn mạnh việc tiêm chủng cần phải nhắm đến những người dễ bị tổn thương",
-      hơn là cứ tiêm nhắc lại cho tất cả những người trên 12 tuổi.
+      Thuốc có tác dụng an thần, làm giảm hưng phấn của thần kinh trung ương.
+      Cồn Linh chi có tác dụng chống co giật do điện, giảm đau.
     </p>
     <br />
     <p>
-      Cần có thêm dữ liệu về tính hiệu quả của liều vaccine thứ tư để đánh giá liệu
-      có cần hay không khi tiêm đại trà cho người dân. Anh hiện đang tiêm chủng đại
-      trà mũi thứ 3 cho người trên 18 tuổi và để ngỏ khả năng tiêm mũi thứ 4.
+      Có tác dụng chỉ khái hóa đàm, bình suyễn nhưng theo báo cáo kết quả thực
+      nghiệm có khác nhau.
     </p>
     <br />
     <p>
-      Israel là một trong những quốc gia đầu tiên trên thế giới bắt đầu tiêm đại trà
-      mũi thứ 4. Từ ngày 4.1.2022, các nhân viên y tế và người trên 60 tuổi được
-      tiêm mũi 4.
+      Có tác dụng bảo vệ gan, giải độc, hạ đường huyết và chống tác dụng của
+      chất phóng xạ. Còn có tác dụng bảo vệ dạ dày loét thực nghiệm.
     </p>
     <br />
     <p>
-      Cuối tháng 12.2021, Bộ trưởng Y tế Đức Karl Lauterbach từng nói Đức sẽ cần
-      “liều thứ 4" để chống lại Covid-19.
+      Có tác dụng cường tim, hạ huyết áp, nâng cao ngưỡng oxy, giúp cơ tim chịu
+      đựng được trạng thái thiếu máu, hạ lipid huyết, chống xơ cứng động mạch.
     </p>
     <br />
     <p>
-      Trong cuộc trả lời phỏng vấn, ông Pollard cũng bày tỏ sự lạc quan khi cho rằng
-      "điều tồi tệ nhất đã ở phía sau" và thế giới "chỉ cần vượt qua mùa đông này".
+      Lượng polysaccarit cao có trong Linh chi, tăng cường sự miễn dịch của cơ
+      thể, có tác dụng chống tế bào ung thư.
     </p>
     <br />
     <p>
-      “Đến một thời điểm nào đó, xã hội phải mở cửa trở lại. Khi mở cửa, sẽ có một
-      giai đoạn bùng phát các ca bệnh. Đó là lý do vì sao mùa đông có lẽ không phải
-      là thời điểm tốt nhất", ông Pollard nói.
+      Germanium giúp khí huyết lưu thông, các tế bào hấp thu oxy tốt hơn. Acid
+      ganoderic có tác dụng chống dị ứng và chống viêm.
     </p>
     <br />
+    <h2>Liều lượng - cách dùng:</h2>
     <p>
-      Ông Pollard cũng cảnh báo hậu quả nguy hiểm của việc thông tin sai lệch về vắc
-      xin Covid-19, nhấn mạnh rằng ngay cả những bình luận "vô ý" của các chính trị
-      gia cũng có thể gây ảnh hưởng lớn.
+      Liều thường dùng: 5 - 15g, thuốc bột mịn mỗi lần 1,5 - 3g, thuốc viên,
+      viên nang ( Thuốc Trung quốc mỗi nang có 300 - 350mg đông khô nấm Linh
+      chi), liều dùng 1 - 2 nang một ngày. Cũng có dạng thuốc tiêm bắp, dạng trà
+      Nhân sâm phối hợp Linh chi.
     </p>
-    <br />
-    <p>
-      Tại Mỹ, các chuyên gia y tế cho rằng, vẫn còn quá sớm để nhắc đến việc tiêm
-      đại trà mũi thứ 4 cho người dân.
-    </p>
-    <br />
-    <span> Nguồn: 24h.com.vn</span>
+    <br>
+    <span> Nguồn: thuocbietduoc.com.vn</span>
     `,
   },
   {

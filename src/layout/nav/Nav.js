@@ -36,7 +36,7 @@ const Nav = () => {
         <div className="warp-nav-bottom">
           <ul>
             <li>
-              <Link to={paths.chung_toi}>Liên hệ</Link>
+              <Link to={paths.chung_toi}>Về chúng tôi</Link>
             </li>
             <li>
               <div className="vl"></div>

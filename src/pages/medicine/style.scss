@@ -67,7 +67,7 @@
           border: 1px solid #00000015;
 
           @include responsive_sm() {
-            width: 55%;
+            width: 300px;
           }
         }
 
@@ -75,9 +75,9 @@
           @include txt-ellipsis(8);
           font-size: 16px;
 
-          @include responsive_sm() {
-            width: 45%;
-          }
+          // @include responsive_sm() {
+          //   width: 45%;
+          // }
         }
       }
     }
