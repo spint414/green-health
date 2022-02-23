@@ -40,7 +40,7 @@
       h1 {
         font-size: 35px;
         text-transform: uppercase;
-        color: blue;
+        color: $blue1;
 
         @include responsive_md() {
           font-size: 42px;
@@ -82,7 +82,7 @@
           margin-left: 10px;
           font-size: 20px;
           font-weight: 600;
-          color: blue;
+          color: $blue1;
         }
 
         p {
@@ -97,63 +97,65 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  padding-top: 25px;
-  padding-bottom: 25px;
-  background-color: rgba(74, 107, 222, 0.9);
+  .layer {
+    background-color: rgba(74, 107, 222, 0.9);
+    padding-top: 25px;
+    padding-bottom: 25px;
 
-  .container {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr;
-    gap: $gap;
-
-    @include responsive_md() {
-      grid-template-columns: 1fr 1fr;
-      grid-template-rows: none;
-      gap: 50px;
-    }
-
-    * {
-      color: #fff;
-    }
-
-    h2 {
-      font-size: 30px;
-      margin-bottom: $gap !important;
-      text-align: center;
-
+    .container {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: 1fr 1fr;
+      gap: $gap;
+  
       @include responsive_md() {
-        text-align: start;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: none;
+        gap: 50px;
       }
-    }
-
-    input {
-      font-size: 16px;
-      font-weight: 300 !important;
-      border: none;
-      border-bottom: 1px solid #fff;
-      border-radius: 0;
-      background-color: unset;
-      color: #fff;
-
-      &::placeholder {
+  
+      * {
         color: #fff;
       }
-
-      &:focus {
-        box-shadow: none;
+  
+      h2 {
+        font-size: 30px;
+        margin-bottom: $gap !important;
+        text-align: center;
+  
+        @include responsive_md() {
+          text-align: start;
+        }
       }
-    }
-
-    button {
-      @include btn-std();
-      background-color: #ffffff;
-      color: blue;
-      margin-top: 30px;
-      width: 100%;
-
-      @include responsive_md() {
-        width: auto;
+  
+      input {
+        font-size: 16px;
+        font-weight: 300 !important;
+        border: none;
+        border-bottom: 1px solid #fff;
+        border-radius: 0;
+        background-color: unset;
+        color: #fff;
+  
+        &::placeholder {
+          color: #fff;
+        }
+  
+        &:focus {
+          box-shadow: none;
+        }
+      }
+  
+      button {
+        @include btn-std();
+        background-color: #ffffff;
+        color: $blue1;
+        margin-top: 30px;
+        width: 100%;
+  
+        @include responsive_md() {
+          width: auto;
+        }
       }
     }
   }
@@ -176,7 +178,7 @@
 
   h2 {
     font-size: 45px;
-    color: blue;
+    color: $blue1;
     margin-bottom: calc(#{$gap} - 10px) !important;
 
     @include responsive_md() {
