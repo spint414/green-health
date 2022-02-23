@@ -8,7 +8,6 @@ import {
   SepHanh,
   SepHoan,
 } from "../../assets/img";
-import { Row, Col } from "antd";
 
 const About = () => {
   return (
