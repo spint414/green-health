@@ -36,28 +36,28 @@ const Nav = () => {
         <div className="warp-nav-bottom">
           <ul>
             <li>
-              <a href="/">Về chúng tôi</a>
+            <Link to={paths.chung_toi}>Liên hệ</Link>
             </li>
             <li>
-              <div class="vl"></div>
+              <div className="vl"></div>
             </li>
             <li>
               <a href="/">Sản phẩm</a>
             </li>
             <li>
-              <div class="vl"></div>
+              <div className="vl"></div>
             </li>
             <li>
               <a href="/">Dược liệu</a>
             </li>
             <li>
-              <div class="vl"></div>
+              <div className="vl"></div>
             </li>
             <li>
-              <a href="/">Tin tức</a>
+            <Link to={paths.tin_tuc}>Tin tức</Link>
             </li>
             <li>
-              <div class="vl"></div>
+              <div className="vl"></div>
             </li>
             <li>
               <Link to={paths.lien_he}>Liên hệ</Link>

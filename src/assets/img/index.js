@@ -12,6 +12,13 @@ import News from "./News.png";
 import FooterBanner from "./FooterBanner.png";
 import Banner5 from "./Banner5.png";
 import ContactBanner from "./ContactBanner.png";
+import AboutBanner from "./AboutBanner.png";
+import Award from "./Award.png";
+import Award2 from "./Award2.png";
+import Award3 from "./Award3.png";
+import People from "./People.png";
+import SepHanh from "./SepHanh.png";
+import SepHoan from "./SepHoan.png";
 
 
 export {
@@ -28,5 +35,12 @@ export {
     News,
     FooterBanner,
     Banner5,
-    ContactBanner
+    ContactBanner,
+    AboutBanner,
+    Award,
+    Award2,
+    Award3,
+    People,
+    SepHanh,
+    SepHoan
 }

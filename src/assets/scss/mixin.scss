@@ -6,6 +6,12 @@
     -webkit-box-orient: vertical;
     overflow: hidden;
   }
+
+  @mixin r1200 {
+    @media (max-width: 1200px) {
+      @content;
+    }
+  }
   
   @mixin r1024 {
     @media (max-width: 1024px) {

@@ -1,0 +1,313 @@
+@import "../../assets/scss/mixin.scss";
+
+.container {
+  padding: 25px 15px;
+  
+    @include responsive_lg() {
+      padding-inline: 15px;
+    }
+  
+    @include responsive_xl() {
+      padding: 50px calc((100vw - #{$page-width-1200}) / 2);
+    }
+
+  h1 {
+    font-size: 42px;
+    color: blue;
+    text-transform: uppercase;
+    margin-bottom: $gap !important;
+    text-align: center;
+
+    @include responsive_lg() {
+      text-align: start;
+    }
+  }
+
+  #block-1 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: $gap;
+
+    @include responsive_lg() {
+      gap: 50px;
+      flex-wrap: nowrap;
+    }
+
+    .left-col {
+      background-color: #e7ecf3;
+      padding: $gap;
+      border-radius: 10px;
+      width: 100%;
+
+      @include responsive_lg() {
+        width: 40%;
+      }
+
+      * {
+        transition: none;
+      }
+
+      &.tab-2 {
+        :global(.ant-tabs-content-holder) {
+          border-radius: 10px;
+        }
+
+        :global(.ant-tabs-tab):nth-child(2) {
+          &::before {
+            content: "";
+            width: 100%;
+            height: 100%;
+            background-color: red;
+            position: absolute;
+            right: -100%;
+            bottom: 0;
+            border-radius: 10px;
+            background-color: #e7ecf3;
+          }
+
+          &::after {
+            background-color: #fff;
+            width: 120%;
+          }
+        }
+      }
+
+      :global(.ant-tabs-nav) {
+        margin-bottom: 0;
+
+        * {
+          font-weight: 100 !important;
+        }
+      }
+
+      :global(.ant-tabs-content-holder) {
+        background-color: #fff;
+        padding: $gap;
+        border-radius: 0 10px 10px 10px;
+      }
+
+      :global(.ant-tabs-tab) {
+        background-color: #e7ecf3;
+        border: none;
+        border-radius: 10px;
+        position: relative;
+        margin-left: 0px !important;
+        border-radius: 10px 10px 0 10px;
+
+        &:first-child {
+          border-radius: 10px 10px 10px 0;
+        }
+
+        &::after {
+          content: "";
+          width: 100%;
+          height: 20px;
+          position: absolute;
+          background-color: #fff;
+          bottom: 0;
+          left: 0;
+          right: 0;
+          z-index: -1;
+        }
+
+        &:global(.ant-tabs-tab-active) {
+          background-color: #fff;
+        }
+
+        * {
+          color: $blue1;
+          font-weight: 600 !important;
+          font-size: 20px;
+        }
+      }
+
+      .post {
+        padding-block: $gap;
+        border-top: 1px solid #c5c5c5;
+        cursor: default;
+
+        .excerpt {
+          @include txt-ellipsis(2);
+          font-weight: 400 !important;
+          font-size: 14px;
+        }
+
+        &:first-child {
+          padding-top: 5px;
+          border-top: none;
+        }
+
+        &:last-child {
+          padding-bottom: 0;
+        }
+
+        p {
+          font-size: 16px;
+          font-weight: 400 !important;
+          color: #ff4543;
+          margin-right: 20px;
+
+          span {
+            font-size: 16px;
+            font-weight: 400 !important;
+            color: #ff4543;
+          }
+
+          .day {
+            border-bottom: 1px solid #ff4543;
+            padding-bottom: 5px;
+          }
+
+          .year {
+            display: block;
+            padding-top: 5px;
+          }
+        }
+
+        h3 {
+          font-size: 16px;
+          font-weight: 500 !important;
+          color: $blue1;
+          @include txt-ellipsis(1);
+          cursor: pointer;
+        }
+      }
+    }
+
+    .right-col {
+      @include responsive_lg() {
+        width: 60%;
+      }
+
+      img,
+      h3 {
+        margin-bottom: $gap;
+        cursor: pointer;
+      }
+
+      img {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+        object-position: center;
+        border-radius: 10px;
+
+        @include responsive_sm() {
+          height: 350px;
+        }
+      }
+
+      h3 {
+        color: $blue1;
+        line-height: 1.3em;
+        margin-top: 10px;
+        margin-bottom: $gap !important;
+        font-size: 24px;
+        margin-top: 0;
+        @include txt-ellipsis(3);
+
+        @include responsive_lg() {
+          font-size: 40px;
+        }
+      }
+
+      p {
+        font-size: 16px;
+        @include txt-ellipsis(3);
+
+        @include responsive_lg() {
+          font-size: 20px;
+        }
+      }
+    }
+  }
+
+  .divider {
+    margin-block: 50px;
+    background-color: #c5c5c5;
+
+    @include responsive_md() {
+      margin-block: $gap;
+    }
+  }
+
+  #block-2 {
+    display: flex;
+    flex-wrap: wrap;
+
+    @include responsive_lg() {
+      flex-wrap: nowrap;
+    }
+
+    .right-col,
+    .left-col {
+      @include responsive_lg() {
+        width: 50%;
+      }
+    }
+
+    .left-col {
+      @include responsive_lg() {
+        margin-right: 50px;
+        padding-right: 50px;
+        border-right: 1px solid #c5c5c5;
+      }
+    }
+
+    .post-md {
+      margin-top: $gap;
+      padding-top: $gap;
+      border-top: 1px solid #c5c5c5;
+
+      @include responsive_sm() {
+        margin-top: calc(#{$gap} + 15px);
+      }
+
+      &:first-child {
+        margin-top: 0;
+        padding-top: 0;
+        border-top: none;
+      }
+
+      h3 {
+        @include txt-ellipsis(1);
+        font-size: 24px;
+        color: $blue1;
+        margin-bottom: $gap !important;
+        cursor: pointer;
+      }
+
+      .content {
+        display: flex;
+        gap: $gap;
+        flex-wrap: wrap;
+
+        @include responsive_sm() {
+          flex-wrap: nowrap;
+        }
+
+        img {
+          height: 200px;
+          object-fit: cover;
+          object-position: center;
+          border-radius: 10px;
+          cursor: pointer;
+          border: 1px solid #00000015;
+
+          @include responsive_sm() {
+            width: 55%;
+          }
+        }
+
+        p {
+          @include txt-ellipsis(8);
+          font-size: 16px;
+
+          @include responsive_sm() {
+            width: 45%;
+          }
+        }
+      }
+    }
+  }
+}

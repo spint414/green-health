@@ -29,7 +29,7 @@ const Footer = () => {
                 </div>
                 <div className="company-text">
                   <Grey />
-                  <span>024 123456789</span>
+                  <span>1900 920 878</span>
                 </div>
               </div>
             </Col>

@@ -365,7 +365,7 @@ const Home = () => {
             <div className="group">
               <div key={i} className="img-card">
                 <img className="img" src={x.img} alt="" />
-                <div class="card-body">
+                <div className="card-body">
                   <p>Lorem ipsum dolor sit amet, consectet aaasdasd</p>
                 </div>
               </div>
