@@ -11,7 +11,8 @@ import DongTrungHaThao3 from "./DongTrungHaThao3.jpg"
 import CaoKhoLinhChi from "./CaoKhoLinhChi.jpg"
 import CaoDinhLang from "./CaoDinhLang.jpg"
 import BachThuat from "./BachThuat.jpg"
-import BachThuat2 from "./BachThuat.jpg"
+import BachThuat2 from "./BachThuat2.png"
+import NoImage from "./NoImage.png"
 
 export {
   // drugs
@@ -22,6 +23,7 @@ export {
   CaoDinhLang,
   BachThuat,
   BachThuat2,
+  NoImage,
 
   // posts
   BoTruongByt,

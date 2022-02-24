@@ -20,7 +20,7 @@
   }
 
   img {
-    width: 100%;
+    width: auto;
     margin-block: $gap;
   }
 
@@ -49,6 +49,7 @@
     font-size: 16px;
     font-weight: 400 !important;
     font-style: italic;
+    display: block;
   }
 
   img {
@@ -66,10 +67,10 @@
   }
 
   ul {
-    margin-top: 10px;
-
     li {
       font-weight: 400 !important;
+      list-style-type: disc;
+      margin-left: 50px;
     }
   }
 
