@@ -78,7 +78,7 @@ const CompSm = memo(({ post, history }) => (
     onClick={() => history.push(paths.tin_tuc_nSlug + post.slug)}
   >
     <p>
-      <span className={news["day"]}>{moment().format("DD/")}</span>
+      <span className={news["day"]}>{moment(post.date, "DD/MM/YYYY").format("DD/")}</span>
 
       {moment().format("MM")}
 

@@ -734,6 +734,7 @@ const drugs = [
       sốt xuất huyết. Chỉ cần sử dụng sâm trong 1 tháng, người bệnh sẽ thấy cơ
       thể khoan khoái hơn nhiều, sắc mặt cũng hồng hào hơn.
     </p>
+    <br />
     <span> Nguồn: tamminhduong.com </span>
     `,
   },

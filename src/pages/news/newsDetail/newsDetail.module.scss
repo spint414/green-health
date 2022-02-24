@@ -1,7 +1,5 @@
 @import "../../../assets/scss/mixin.scss";
 
-$image-height: 500px;
-
 .container {
   background-color: #f3f6fa;
 
@@ -21,7 +19,7 @@ $image-height: 500px;
   }
 
   img {
-    width: 100%;
+    max-width: 100%;
     margin-block: $gap;
   }
 
@@ -53,9 +51,7 @@ $image-height: 500px;
   }
 
   img {
-    width: 100%;
-    height: $image-height;
-    object-fit: cover;
+    height: 500px;
     object-position: center;
     margin-top: 0;
 
@@ -66,6 +62,10 @@ $image-height: 500px;
 
   :global(.image) {
     text-align: center;
+
+    span {
+      display: block;
+    }
   }
 
   ul {
