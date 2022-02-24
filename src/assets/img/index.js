@@ -19,6 +19,7 @@ import Award3 from "./Award3.png";
 import People from "./People.png";
 import SepHanh from "./SepHanh.png";
 import SepHoan from "./SepHoan.png";
+import BoCT from "./BoCT.png";
 
 
 export {
@@ -42,5 +43,6 @@ export {
     Award3,
     People,
     SepHanh,
-    SepHoan
+    SepHoan,
+    BoCT
 }

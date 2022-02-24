@@ -1,6 +1,15 @@
 import "./style.scss";
-import { BoCT, Grey, Youtube, Facebook, LogoGH2 } from "../../assets/svg/index";
-import { FooterBanner } from "../../assets/img/index";
+import {
+  Grey,
+  Youtube,
+  Facebook,
+  LogoGH2,
+  CallWhite,
+  ComputerWhite,
+  MessWhite,
+  Zalo,
+} from "../../assets/svg/index";
+import { FooterBanner, BoCT } from "../../assets/img/index";
 import { Col, Row } from "antd";
 
 const Footer = () => {
@@ -60,19 +69,37 @@ const Footer = () => {
                   <p>Kênh truyền thông</p>
                   <div className="media-logo">
                     <div>
-                        <Facebook />
+                      <Facebook />
                     </div>
                     <div>
-                        <Youtube />
+                      <Youtube />
                     </div>
                   </div>
-                  <BoCT />
+                  <div>
+                    <img src={BoCT} alt="" />
+                  </div>
                 </div>
               </div>
             </Col>
           </Row>
         </div>
       </div>
+
+      <div className="side-bar">
+        <div className="icon">
+          <ComputerWhite />
+        </div>
+        <div className="icon">
+          <MessWhite />
+        </div>
+        <div className="icon">
+          <CallWhite />
+        </div>
+        <div className="icon">
+          <Zalo />
+        </div>
+      </div>
+      
     </section>
   );
 };
