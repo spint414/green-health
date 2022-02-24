@@ -6,7 +6,7 @@ import {
   CaoDinhLang,
   BachThuat,
   BachThuat2,
-  NoImage
+  DangSam
 } from "./img";
 
 const drugs = [
@@ -652,7 +652,7 @@ const drugs = [
   {
     slug: `cong-dung-cua-dang-sam`,
     title: `Công dụng của Đẳng Sâm`,
-    featureImg: NoImage,
+    featureImg: DangSam,
     excerpt: `Trong đông y, đẳng sâm có vị ngọt, tính bình mang lại tác dụng qui vào kinh phế, túc thái âm, kinh thù. Nhờ vậy, sâm sở hữu những công dụng tuyệt vời như sau...`,
     content: `
     <h2>Đẳng sâm có tác dụng gì?</h2>
@@ -667,6 +667,10 @@ const drugs = [
       kinh phế, túc thái âm, kinh thù. Nhờ vậy, sâm sở hữu những công dụng tuyệt
       vời như sau:
     </p>
+    <br />
+    <div class="image">
+      <img src="${DangSam}" alt="" />
+    </div>
     <br />
     <ul>
       <li>Tăng cường sức đề kháng</li>

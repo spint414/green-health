@@ -12,7 +12,7 @@ import CaoKhoLinhChi from "./CaoKhoLinhChi.jpg"
 import CaoDinhLang from "./CaoDinhLang.jpg"
 import BachThuat from "./BachThuat.jpg"
 import BachThuat2 from "./BachThuat2.png"
-import NoImage from "./NoImage.png"
+import DangSam from "./DangSam.png"
 
 export {
   // drugs
@@ -23,7 +23,7 @@ export {
   CaoDinhLang,
   BachThuat,
   BachThuat2,
-  NoImage,
+  DangSam,
 
   // posts
   BoTruongByt,
