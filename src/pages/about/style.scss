@@ -110,14 +110,15 @@
 
       @include r768 {
         width: 100%;
-        padding-left: 25px;
+        padding-left: 0;
+        margin-left: 0;
         border: none;
       }
 
       .boss {
         display: flex;
         flex-wrap: wrap;
-        gap: 50px;
+        gap: 30px;
         justify-content: flex-start;
 
         @include r768 {
@@ -125,9 +126,17 @@
         }
 
         .boss-wrap {
+
+          @include r768 {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+          }
+
           img {
             width: 240px;
             height: 240px;
+            object-fit: cover;
             margin-bottom: 20px;
           }
 

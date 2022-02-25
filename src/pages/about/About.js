@@ -5,8 +5,9 @@ import {
   Award2,
   Award3,
   People,
-  SepHanh,
-  SepHoan,
+  Vip,
+  Vip2,
+  Vip3
 } from "../../assets/img";
 
 const About = () => {
@@ -71,14 +72,19 @@ const About = () => {
             <h2>Đội ngũ</h2>
             <div className="boss">
               <div className="boss-wrap">
-                <img src={SepHanh} alt="" />
+                <img src={Vip} alt="" />
                 <h3>PhD. Hanh Nguyen</h3>
                 <span>Founder - CEO</span>
               </div>
               <div className="boss-wrap">
-                <img src={SepHoan} alt="" />
-                <h3>Msc. Hoan Dinh</h3>
-                <span>Co-Founder - CTO</span>
+                <img src={Vip2} alt="" />
+                <h3>BS NGUYỄN MẠNH TUẤN</h3>
+                <span>Co-  Founder</span>
+              </div>
+              <div className="boss-wrap">
+                <img src={Vip3} alt="" />
+                <h3>TS.BS. NGUYỄN THỊ KIM NGA</h3>
+                <span>Co-  Founder</span>
               </div>
             </div>
           </div>

@@ -17,8 +17,9 @@ import Award from "./Award.png";
 import Award2 from "./Award2.png";
 import Award3 from "./Award3.png";
 import People from "./People.png";
-import SepHanh from "./SepHanh.png";
-import SepHoan from "./SepHoan.png";
+import Vip from "./Vip.png";
+import Vip2 from "./Vip2.png";
+import Vip3 from "./Vip3.jpg"
 import BoCT from "./BoCT.png";
 
 
@@ -42,7 +43,8 @@ export {
     Award2,
     Award3,
     People,
-    SepHanh,
-    SepHoan,
+    Vip,
+    Vip2,
+    Vip3,
     BoCT
 }
