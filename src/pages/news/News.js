@@ -10,6 +10,12 @@ import posts from "../../data/posts";
 const News = () => {
   const [currentTab, setCurrentTab] = useState("1");
   const history = useHistory();
+  
+  posts.sort(function(a,b) {
+    a = a.date.split('/').reverse().join('');
+    b = b.date.split('/').reverse().join('');
+    return a < b ? 1 : a > b ? -1 : 0;
+  });
 
   return (
     <div className={news["container"]}>

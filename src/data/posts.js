@@ -10,7 +10,7 @@ import {
 
 const posts = [
   {
-    date: `21022022`,
+    date: `21/02/2022`,
     slug: `bộ-y-tế-các-địa-phương-chuẩn-bị-sẵn-nguồn-lực-để-tiêm-vaccine-phòng-covid19-cho-trẻ-từ-511-tuổi`,
     title: `Bộ Y tế: Các địa phương chuẩn bị sẵn nguồn lực để tiêm vaccine phòng COVID-19 cho trẻ từ 5-11 tuổi`,
     featureImg: TiemTreEm,
@@ -190,7 +190,7 @@ const posts = [
     `,
   },
   {
-    date: `22022022`,
+    date: `22/02/2022`,
     slug: `ngày-222-số-mắc-covid19-mới-tăng-vọt-lên-55879-ca-f0-tử-vong-giảm-còn-77-ca`,
     title: `Ngày 22/2: Số mắc COVID-19 mới tăng vọt lên 55.879 ca; F0 tử vong giảm còn 77 ca"`,
     featureImg: Covi22d,
@@ -400,7 +400,7 @@ const posts = [
     `,
   },
   {
-    date: `23022022`,
+    date: `23/02/2022`,
     slug: `sáng-232-hơn-3400-f0-nặng-đang-điều-trị-giảm-tối-đa-tử-vong-do-covid19`,
     title: `Sáng 23/2: Hơn 3.400 F0 nặng đang điều trị; Giảm tối đa tử vong do COVID-19`,
     featureImg: F03400,
@@ -615,7 +615,7 @@ const posts = [
     `,
   },
   {
-    date: `23022022`,
+    date: `23/02/2022`,
     slug: `chiều-232-đã-phân-bổ-2004-triệu-liều-vaccine-phòng-covid19-tiêm-hơn-1924-triệu-mũi`,
     title: `Chiều 23/2: Đã phân bổ 200,4 triệu liều vaccine phòng COVID-19; tiêm hơn 192,4 triệu mũi`,
     featureImg: PhanBo,
@@ -786,7 +786,7 @@ const posts = [
     `,
   },
   {
-    date: `23022022`,
+    date: `23/02/2022`,
     slug: `thủ-tướng-chỉ-đạo-khẩn-về-tiêm-vaccine-covid19-và-một-số-biện-pháp-phòng-chống-dịch`,
     title: `Thủ tướng chỉ đạo khẩn về tiêm vaccine COVID-19 và một số biện pháp phòng, chống dịch`,
     featureImg: ThuTuongCovid,
@@ -949,7 +949,7 @@ const posts = [
     `,
   },
   {
-    date: `24022022`,
+    date: `24/02/2022`,
     slug: `sáng-242-số-ca-covid19-mới-trung-bình-7-ngày-qua-là-47264-f0ngày-25-tỉnh-thành-có-f0-mới-trên-1000-ca`,
     title: `Sáng 24/2: Số ca COVID-19 mới trung bình 7 ngày qua là 47.264 F0/ngày; 25 tỉnh, thành có F0 mới trên 1.000 ca`,
     featureImg: TrungBinh7Ngay,
@@ -1142,5 +1142,6 @@ const posts = [
     `,
   },
 ];
+
 
 export default posts;
