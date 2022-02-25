@@ -14,7 +14,6 @@ import { Col, Row } from "antd";
 import { Link } from "react-router-dom";
 import { paths } from "../../constant";
 
-
 const Footer = () => {
   return (
     <section className="footer">
@@ -51,19 +50,27 @@ const Footer = () => {
                   <p>Về chúng tôi</p>
                   <ul>
                     <li>
-                      <span><Link to={paths.chung_toi}>Giới thiệu</Link></span>
+                      <span>
+                        <Link to={paths.chung_toi}>Giới thiệu</Link>
+                      </span>
                     </li>
                     <li>
                       <span>Sản phẩm</span>
                     </li>
                     <li>
-                      <span><Link to={paths.duoc_lieu}>Dược liệu</Link></span>
+                      <span>
+                        <Link to={paths.duoc_lieu}>Dược liệu</Link>
+                      </span>
                     </li>
                     <li>
-                      <span><Link to={paths.tin_tuc}>Tin tức</Link></span>
+                      <span>
+                        <Link to={paths.tin_tuc}>Tin tức</Link>
+                      </span>
                     </li>
                     <li>
-                      <span><Link to={paths.lien_he}>Liên hệ</Link></span>
+                      <span>
+                        <Link to={paths.lien_he}>Liên hệ</Link>
+                      </span>
                     </li>
                   </ul>
                 </div>
@@ -95,16 +102,19 @@ const Footer = () => {
           <ComputerWhite />
         </div>
         <div className="icon">
-          <MessWhite />
+          <a href="https://www.facebook.com/GreenHealthSJC">
+            <MessWhite />
+          </a>
         </div>
         <div className="icon">
-          <CallWhite />
+          <a href="tel:0968876850">
+            <CallWhite />
+          </a>
         </div>
         <div className="icon">
           <Zalo />
         </div>
       </div>
-      
     </section>
   );
 };
