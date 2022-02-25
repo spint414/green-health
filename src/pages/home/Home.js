@@ -10,12 +10,14 @@ import {
   Jar,
   BannerGreenmeal,
   HomeBS,
-  News,
 } from "../../assets/img/index";
 import { Decoration, Left, Right } from "../../assets/svg/index";
 import { Col, Row, Button, Form, Input } from "antd";
 import "slick-carousel/slick/slick.css";
 import Slider from "react-slick";
+import posts from "../../data/posts"
+import { paths } from "../../constant"
+import { Link } from "react-router-dom";
 
 const Home = () => {
   const customeSlider1 = useRef();
@@ -155,27 +157,6 @@ const Home = () => {
       },
     ],
   };
-
-  const Tintucs = [
-    {
-      img: News,
-    },
-    {
-      img: News,
-    },
-    {
-      img: News,
-    },
-    {
-      img: News,
-    },
-    {
-      img: News,
-    },
-    {
-      img: News,
-    },
-  ];
 
   return (
     <section className="Home">
@@ -361,13 +342,15 @@ const Home = () => {
       <div className="home-news">
         <h2>Tin tức</h2>
         <Slider {...settingsnew}>
-          {Tintucs.map((x, i) => (
+          {posts.map((x, i) => (
             <div className="group">
               <div key={i} className="img-card">
-                <img className="img" src={x.img} alt="" />
+              <Link className="a" to={`${paths.tin_tuc}/${x.slug}`}>
+                <img className="img" src={x.featureImg} alt="" />
                 <div className="card-body">
-                  <p>Lorem ipsum dolor sit amet, consectet aaasdasd</p>
+                  <p>{x.title}</p>
                 </div>
+                </Link>
               </div>
             </div>
           ))}
