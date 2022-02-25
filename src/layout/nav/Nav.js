@@ -16,7 +16,7 @@ const Nav = () => {
           <ul>
             <li>
               <Call />
-              <span className="span">Hotline: 1900 920 878 </span>
+              <span className="span">Hotline: 0968876850 </span>
             </li>
             <li>
               <Input prefix={<Search />} placeholder="Từ khóa..." />

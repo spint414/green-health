@@ -9,7 +9,9 @@ import {
   Spoon,
   Jar,
   BannerGreenmeal,
-  HomeBS,
+  HomeDN,
+  HomeDN2,
+  HomeDN3,
 } from "../../assets/img/index";
 import { Decoration, Left, Right } from "../../assets/svg/index";
 import { Col, Row, Button, Form, Input } from "antd";
@@ -84,22 +86,34 @@ const Home = () => {
 
   const doingubslist = [
     {
-      img: HomeBS,
+      img: HomeDN,
+      name: "TS. Nguyễn Văn P",
+      info: "Lorem ipsum dolor sit áđâsđâsdamet, consectetur adipiscing elit ut aliquam",
     },
     {
-      img: HomeBS,
+      img: HomeDN2,
+      name: "TS. Nguyễn Văn P",
+      info: "Lorem ipsum dolor sit áđâsđâsdamet, consectetur adipiscing elit ut aliquam",
     },
     {
-      img: HomeBS,
+      img: HomeDN3,
+      name: "TS. Nguyễn Văn P",
+      info: "Lorem ipsum dolor sit áđâsđâsdamet, consectetur adipiscing elit ut aliquam",
     },
     {
-      img: HomeBS,
+      img: HomeDN,
+      name: "TS. Nguyễn Văn P",
+      info: "Lorem ipsum dolor sit áđâsđâsdamet, consectetur adipiscing elit ut aliquam",
     },
     {
-      img: HomeBS,
+      img: HomeDN2,
+      name: "TS. Nguyễn Văn P",
+      info: "Lorem ipsum dolor sit áđâsđâsdamet, consectetur adipiscing elit ut aliquam",
     },
     {
-      img: HomeBS,
+      img: HomeDN3,
+      name: "TS. Nguyễn Văn P",
+      info: "Lorem ipsum dolor sit áđâsđâsdamet, consectetur adipiscing elit ut aliquam",
     },
   ];
 
@@ -210,11 +224,11 @@ const Home = () => {
                 {doingubslist.map((e, i) => (
                   <div className="group" key={i}>
                     <img src={e.img} alt="" />
+                    <div className="name">
+                      <p>{e.name}</p>
+                    </div>
                     <div className="des">
-                      <p>
-                        Lorem ipsum dolor sit áđâsđâsdamet, consectetur
-                        adipiscing elit ut aliquam
-                      </p>
+                      <p>{e.info}</p>
                     </div>
                   </div>
                 ))}

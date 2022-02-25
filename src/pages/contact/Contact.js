@@ -67,7 +67,7 @@ const Contact = () => {
                 <span>Hotline</span>
               </Row>
 
-              <p>1900 920 878</p>
+              <p>0968876850</p>
             </div>
 
             <div className="inner">

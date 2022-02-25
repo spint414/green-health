@@ -7,7 +7,9 @@ import PurpleFlower from "./PurpleFlower.png";
 import Spoon from "./Spoon.png";
 import Jar from "./Jar.png";
 import BannerGreenmeal from "./BannerGreenmeal.png";
-import HomeBS from "./HomeBS.png";
+import HomeDN from "./HomeDN.png";
+import HomeDN2 from "./HomeDN2.png";
+import HomeDN3 from "./HomeDN3.png";
 import News from "./News.png";
 import FooterBanner from "./FooterBanner.png";
 import Banner5 from "./Banner5.png";
@@ -33,7 +35,9 @@ export {
     Spoon,
     Jar,
     BannerGreenmeal,
-    HomeBS,
+    HomeDN,
+    HomeDN2,
+    HomeDN3,
     News,
     FooterBanner,
     Banner5,
