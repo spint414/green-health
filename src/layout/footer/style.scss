@@ -17,6 +17,12 @@
     color: $white;
   }
 
+  a {
+    font-size: 16px;
+    line-height: 17px;
+    color: $white !important;
+  }
+
   .company {
     .company-logo {
       padding-bottom: 40px;
@@ -64,6 +70,10 @@
       display: flex;
       flex-direction: column;
 
+      p:first-child {
+        font-weight: bold !important;
+      }
+
       ul {
         padding-top: 15px;
         li {
@@ -78,6 +88,10 @@
 
     .media {
       padding-left: 85px;
+      
+      p:first-child {
+        font-weight: bold !important;
+      }
 
       .media-logo {
         padding-top: 26px;

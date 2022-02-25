@@ -15,8 +15,8 @@ import { Decoration, Left, Right } from "../../assets/svg/index";
 import { Col, Row, Button, Form, Input } from "antd";
 import "slick-carousel/slick/slick.css";
 import Slider from "react-slick";
-import posts from "../../data/posts"
-import { paths } from "../../constant"
+import posts from "../../data/posts";
+import { paths } from "../../constant";
 import { Link } from "react-router-dom";
 
 const Home = () => {
@@ -243,11 +243,10 @@ const Home = () => {
             <p>thực phẩm chức năng</p>
             <h2>Green Meal</h2>
             <p className="paragraph">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Hac
-              luctus ut etiam sit mi tincidunt nisl massa. Ultricies vestibulum,
-              ultricies id nunc duis neque. Lectus maecenas sit vel sit. Nisl in
-              lobortis nibh neque at a imperdiet. Lorem id sit amet in mattis
-              feugiat feugiat. In semper vulputate rutrum vitae tortor massa id.
+              Bữa ăn dinh dưỡng bổ sung giúp nâng miễn dịch và Chữa lành ở đường
+              tiêu hóa. Chứa thảo dược bồi bổ nguyên khí hàng đầu và nâng cao
+              tình trạng miễn dịch cho cơ thể, tăng cường đạm, protein, lipid
+              khác có nguồn gốc từ tảo và thực vật.
             </p>
             <a className="buttona" href="!#">
               <Button>Đặt hàng ngay</Button>
@@ -291,11 +290,10 @@ const Home = () => {
         ></div>
         <div className="form-content">
           <h2>
-            Lorem ipsum dolor sit
+            ĐĂNG KÝ NHẬN TƯ VẤN
             <br className="br" />
-            amet, consectetur
+            VỀ SẢN PHẨM
             <br className="br" />
-            adipiscing elit ut aliquam
           </h2>
 
           <Form>
@@ -345,11 +343,11 @@ const Home = () => {
           {posts.map((x, i) => (
             <div className="group">
               <div key={i} className="img-card">
-              <Link className="a" to={`${paths.tin_tuc}/${x.slug}`}>
-                <img className="img" src={x.featureImg} alt="" />
-                <div className="card-body">
-                  <p>{x.title}</p>
-                </div>
+                <Link className="a" to={`${paths.tin_tuc}/${x.slug}`}>
+                  <img className="img" src={x.featureImg} alt="" />
+                  <div className="card-body">
+                    <p>{x.title}</p>
+                  </div>
                 </Link>
               </div>
             </div>

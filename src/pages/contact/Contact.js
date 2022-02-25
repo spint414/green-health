@@ -21,28 +21,28 @@ const Contact = () => {
             <p>Gửi email hoặc liên hệ qua các kênh mạng xã hội</p>
             <div className="social-icons">
               <a
-                href="https://www.facebook.com/deepcarevn/?ref=page_internal"
+                href="https://www.facebook.com/GreenHealthSJC"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <FacebookCl />
               </a>
               <a
-                href="https://www.youtube.com/channel/UCYpyOPW7z-yOBFl6aM-kQsA"
+                href="/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <YoutubeCl />
               </a>
               <a
-                href="https://www.instagram.com/deepcare.vietnam/"
+                href="/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <InstagramCl />
               </a>
               <a
-                href="https://www.linkedin.com/company/68871285/admin/"
+                href="/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -67,7 +67,7 @@ const Contact = () => {
                 <span>Hotline</span>
               </Row>
 
-              <p>1900 068 856</p>
+              <p>1900 920 878</p>
             </div>
 
             <div className="inner">
@@ -76,7 +76,7 @@ const Contact = () => {
                 <span>Email</span>
               </Row>
 
-              <p>contact@deepcare.io</p>
+              <p>contact@ghp.com.vn</p>
             </div>
           </div>
         </div>

@@ -11,6 +11,9 @@ import {
 } from "../../assets/svg/index";
 import { FooterBanner, BoCT } from "../../assets/img/index";
 import { Col, Row } from "antd";
+import { Link } from "react-router-dom";
+import { paths } from "../../constant";
+
 
 const Footer = () => {
   return (
@@ -48,19 +51,19 @@ const Footer = () => {
                   <p>Về chúng tôi</p>
                   <ul>
                     <li>
-                      <span>Giới thiệu</span>
+                      <span><Link to={paths.chung_toi}>Giới thiệu</Link></span>
                     </li>
                     <li>
                       <span>Sản phẩm</span>
                     </li>
                     <li>
-                      <span>Dược liệu</span>
+                      <span><Link to={paths.duoc_lieu}>Dược liệu</Link></span>
                     </li>
                     <li>
-                      <span>Tin tức</span>
+                      <span><Link to={paths.tin_tuc}>Tin tức</Link></span>
                     </li>
                     <li>
-                      <span>Liên hệ</span>
+                      <span><Link to={paths.lien_he}>Liên hệ</Link></span>
                     </li>
                   </ul>
                 </div>
@@ -69,7 +72,9 @@ const Footer = () => {
                   <p>Kênh truyền thông</p>
                   <div className="media-logo">
                     <div>
-                      <Facebook />
+                      <a href="https://www.facebook.com/GreenHealthSJC">
+                        <Facebook />
+                      </a>
                     </div>
                     <div>
                       <Youtube />
