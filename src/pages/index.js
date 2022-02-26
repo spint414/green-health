@@ -5,6 +5,7 @@ import News from "./news/News";
 import NewsDetail from "./news/newsDetail/NewsDetail";
 import Medicine from "./medicine/Medicine";
 import MedicineDetail from "./medicine/medicineDetail/MedicineDetail";
+import Product from "./product/Product";
 
 
 export {
@@ -14,5 +15,6 @@ export {
     News,
     NewsDetail,
     Medicine,
-    MedicineDetail
+    MedicineDetail,
+    Product
 }

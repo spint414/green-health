@@ -326,9 +326,9 @@ const Home = () => {
                       </p>
                     </div>
                   </div>
-                  <a className="buttona" href="!#">
+                  <Link to={paths.san_pham}>
                     <Button>Xem chi tiết sản phẩm</Button>
-                  </a>
+                  </Link>
                 </div>
               </div>
             </Col>

@@ -33,6 +33,7 @@ import GreenMealBox from "./GreenMealBox.png";
 import Production from "./Production.png";
 import ProductBG from "./ProductBG.png";
 import ProductBGHalf from "./ProductBGHalf.png";
+import TwoPerson from "./TwoPerson.jpg";
 
 
 export {
@@ -70,5 +71,6 @@ export {
     GreenMealBox,
     Production,
     ProductBG,
-    ProductBGHalf
+    ProductBGHalf,
+    TwoPerson
 }

@@ -8,4 +8,5 @@ export const paths = {
     duoc_lieu: "/duoc-lieu",
     duoc_lieu_wSlug: "/duoc-lieu/:slug",
     duoc_lieu_nSlug: "/duoc-lieu/",
+    san_pham: "/product"
 };
