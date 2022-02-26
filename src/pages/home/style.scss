@@ -329,56 +329,6 @@
   justify-content: flex-end;
 }
 
-.home-green-meal {
-  .warp-green-meal {
-    padding-top: 120px;
-    padding-bottom: 105px;
-    text-align: right;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-
-    @include r768 {
-      text-align: center;
-      align-items: center;
-    }
-
-    p {
-      font-size: 20px;
-      line-height: 21px;
-      color: $white;
-    }
-
-    .paragraph {
-      padding-top: 37px;
-      padding-bottom: 50px;
-      max-width: 451px;
-    }
-
-    h2 {
-      font-size: 60px;
-      line-height: 63px !important;
-      color: $white;
-    }
-
-    .ant-btn {
-      span {
-        color: $green3;
-        font-weight: 600;
-        font-size: 20px;
-      }
-      border-radius: 99999px;
-      height: 60px;
-      width: 240px;
-      background-color: $white;
-      border: none;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-    }
-  }
-}
-
 .home-partner {
   background-color: $grey3;
   h2 {

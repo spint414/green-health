@@ -5,10 +5,9 @@ import {
   LogoLVFH,
   LogoMD,
   LogoVD,
-  PurpleFlower,
+  Apple,
   Spoon,
   Jar,
-  BannerGreenmeal,
   HomeDN,
   HomeDN2,
   HomeDN3,
@@ -201,22 +200,21 @@ const Home = () => {
           <Decoration />
           <Row>
             <Col xs={24} sm={24} xl={12}>
-              <div className="img"><img src={Spoon} alt="" /></div>
+              <div className="img">
+                <img src={Spoon} alt="" />
+              </div>
             </Col>
             <Col xs={24} sm={24} xl={12}>
               <div className="introduction-text">
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Hac
-                  luctus ut etiam sit mi tincidunt nisl massa. Ultricies
-                  vestibulum, ultricies id nunc duis neque. Lectus maecenas sit
-                  vel sit. Nisl in lobortis nibh neque at a imperdiet. Lorem id
-                  sit amet in mattis feugiat feugiat. In semper vulputate rutrum
-                  vitae tortor massa id. Laoreet tellus mauris gravida maecenas
-                  nisl vestibulum auctor ut mauris. Amet mauris nec, volutpat
-                  morbi. Sed hendrerit nunc tincidunt auctor urna fermentum.
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Hac
-                  luctus ut etiam sit mi tincidunt nisl massa. Ultricies
-                  vestibulum, ultricies id nunc duis neque.
+                  Với sự thấu hiểu tiềm năng của thảo dược, chúng tôi chuyên
+                  nghiên cứu, khai thác và nuôi trồng những loại thảo dược tốt
+                  nhất với mục tiêu mang tới cho người dùng những sản phẩm chăm
+                  sóc sức khỏe được tạo ra từ tinh hoa dược liệu Việt Nam kết
+                  hợp với công nghệ sản xuất đạt chuẩn thế giới. Green health
+                  mong muốn mang đến những chế độ dinh dưỡng phù hợp nhất giúp
+                  khách hàng chăm sóc sức khỏe ngay khi cơ thể bình thường. để
+                  đẩy lùi bệnh tật hết mức có thể.
                 </p>
                 <a className="buttona" href="!#">
                   <Button>Xem thêm &#8594;</Button>
@@ -258,32 +256,6 @@ const Home = () => {
               </div>
             </Col>
           </Row>
-        </div>
-      </div>
-
-      <div
-        className="home-green-meal"
-        style={{
-          backgroundImage: "url(" + BannerGreenmeal + ")",
-          backgroundSize: "cover",
-          backgroundPosition: "center",
-          backgroundRepeat: "no-repeat",
-        }}
-      >
-        <div className="container">
-          <div className="warp-green-meal">
-            <p>thực phẩm chức năng</p>
-            <h2>Green Meal</h2>
-            <p className="paragraph">
-              Bữa ăn dinh dưỡng bổ sung giúp nâng miễn dịch và Chữa lành ở đường
-              tiêu hóa. Chứa thảo dược bồi bổ nguyên khí hàng đầu và nâng cao
-              tình trạng miễn dịch cho cơ thể, tăng cường đạm, protein, lipid
-              khác có nguồn gốc từ tảo và thực vật.
-            </p>
-            <a className="buttona" href="!#">
-              <Button>Đặt hàng ngay</Button>
-            </a>
-          </div>
         </div>
       </div>
 
@@ -391,7 +363,7 @@ const Home = () => {
         <div
           className="form-image"
           style={{
-            backgroundImage: "url(" + PurpleFlower + ")",
+            backgroundImage: "url(" + Apple + ")",
             backgroundSize: "cover",
             backgroundPosition: "center",
             backgroundRepeat: "no-repeat",

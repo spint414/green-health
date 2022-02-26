@@ -3,7 +3,7 @@ import LogoAV from "./LogoAV.png";
 import LogoLVFH from "./LogoLVFH.png";
 import LogoMD from "./LogoMD.png";
 import LogoVD from "./LogoVD.png";
-import PurpleFlower from "./PurpleFlower.png";
+import Apple from "./Apple.jpg";
 import Spoon from "./Spoon.png";
 import Jar from "./Jar.png";
 import BannerGreenmeal from "./BannerGreenmeal.png";
@@ -41,7 +41,7 @@ export {
     LogoLVFH,
     LogoMD,
     LogoVD,
-    PurpleFlower,
+    Apple,
     Spoon,
     Jar,
     BannerGreenmeal,
