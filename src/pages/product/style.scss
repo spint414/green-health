@@ -73,16 +73,25 @@
     }
   }
 
-  ul {
+  ol {
     margin-top: 10px;
+    margin-left: 0;
+    padding-left: 40px !important;
 
     li {
-      font-weight: 400 !important;
+      list-style-type: decimal !important;
     }
   }
 
-  .dot {
-    list-style: disc;
+  ul {
+    margin-top: 10px;
+    margin-left: 0;
+    padding-left: 40px !important;
+
+    li {
+      list-style-type: disc !important;
+      font-weight: 400 !important;
+    }
   }
 
   a {

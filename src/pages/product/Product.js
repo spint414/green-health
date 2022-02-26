@@ -19,12 +19,13 @@ const Product = () => {
         </div>
         <br />
         <h2>Sản phẩm đặc biệt phù hợp cho:</h2>
-        <p>- Người suy dinh dưỡng, sức đề kháng kém </p>
-        <br />
-        <p>- Người vừa trải qua chấn thương, phẫu thuật</p>
-        <br />
-        <p>- Trẻ biếng ăn, còi xương</p>
-        <br />
+        <ol>
+          <li>Người suy dinh dưỡng, sức đề kháng kém</li>
+          <br />
+          <li>Người vừa trải qua chấn thương, phẫu thuật</li>
+          <br />
+          <li>Trẻ biếng ăn, còi xương</li>
+        </ol>
         <h2>Hiệu quả nổi bật: </h2>
         <ul className="dot">
           <li>
@@ -91,12 +92,10 @@ const Product = () => {
         <br />
         <p>- Đường thốt nốt</p>
         <br />
-        <h3>Sản phẩm đặc biệt phù hợp cho:</h3>
-        <p>- Người suy dinh dưỡng, sức đề kháng kém</p>
-        <br />
-        <p>- Người vừa trải qua chấn thương, phẫu thuật</p>
-        <br />
-        <p>- Trẻ biếng ăn, còi xương.</p>
+        <p>
+          Liên hệ Hotline <b>0968876850</b> để được hỗ trợ giải đáp thắc mắc về sản
+          phẩm và đặt hàng nhanh chóng nhất.
+        </p>
       </div>
     </div>
   );
