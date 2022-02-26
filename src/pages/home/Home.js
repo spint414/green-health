@@ -12,8 +12,26 @@ import {
   HomeDN,
   HomeDN2,
   HomeDN3,
+  GreenMealBox,
+  ProductBG,
+  ProductBGHalf,
+  // Bud,
+  // CNQT,
+  // CNYT,
+  // GreenBG,
+  // GreenBG2,
+  // GreenBG3,
+  // Production
 } from "../../assets/img/index";
-import { Decoration, Left, Right } from "../../assets/svg/index";
+import {
+  Decoration,
+  Left,
+  Right,
+  GreenMealGold,
+  Number1GM,
+  Number2GM,
+  Number3GM,
+} from "../../assets/svg/index";
 import { Col, Row, Button, Form, Input } from "antd";
 import "slick-carousel/slick/slick.css";
 import Slider from "react-slick";
@@ -183,7 +201,7 @@ const Home = () => {
           <Decoration />
           <Row>
             <Col xs={24} sm={24} xl={12}>
-              <img src={Spoon} alt="" />
+              <div className="img"><img src={Spoon} alt="" /></div>
             </Col>
             <Col xs={24} sm={24} xl={12}>
               <div className="introduction-text">
@@ -269,12 +287,89 @@ const Home = () => {
         </div>
       </div>
 
+      <div className="home-product">
+        <h2>Sản phẩm của chúng tôi</h2>
+        <div className="hl"></div>
+
+        <div
+          className="warp-product"
+          style={{
+            backgroundImage: "url(" + ProductBG + ")",
+            backgroundSize: "cover",
+            backgroundPosition: "center",
+            backgroundRepeat: "no-repeat",
+          }}
+        >
+          <Row>
+            <Col xs={24} sm={24} xl={12}>
+              <div className="img">
+                <img src={GreenMealBox} alt="" />
+              </div>
+            </Col>
+            <Col xs={24} sm={24} xl={12}>
+              <div
+                className="product-text"
+                style={{
+                  backgroundImage: "url(" + ProductBGHalf + ")",
+                  backgroundSize: "cover",
+                  backgroundPosition: "center",
+                  backgroundRepeat: "no-repeat",
+                }}
+              >
+                <div className="warp-product-text">
+                  <p className="title">Thực phẩm chức năng</p>
+                  <div className="greenmeal-svg">
+                    <GreenMealGold />
+                  </div>
+                  <div className="section">
+                    <Number1GM />
+                    <div className="text">
+                      <p>Lorem ipsum dolor sit amet, consectetur</p>
+                      <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                        ut aliquam, purus sit amet luctus venenatis, lectus
+                        magna fringilla urna, porttitor rhoncus
+                      </p>
+                    </div>
+                  </div>
+                  <div className="section">
+                    <Number2GM />
+                    <div className="text">
+                      <p>Lorem ipsum dolor sit amet, consectetur</p>
+                      <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                        ut aliquam, purus sit amet luctus venenatis, lectus
+                        magna fringilla urna, porttitor rhoncus
+                      </p>
+                    </div>
+                  </div>
+                  <div className="section">
+                    <Number3GM />
+                    <div className="text">
+                      <p>Lorem ipsum dolor sit amet, consectetur</p>
+                      <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                        ut aliquam, purus sit amet luctus venenatis, lectus
+                        magna fringilla urna, porttitor rhoncus
+                      </p>
+                    </div>
+                  </div>
+                  <a className="buttona" href="!#">
+                    <Button>Xem chi tiết sản phẩm</Button>
+                  </a>
+                </div>
+              </div>
+            </Col>
+          </Row>
+        </div>
+      </div>
+
       <div className="home-partner">
         <div className="container">
           <h2>Đối tác của chúng tôi</h2>
           <div className="hl"></div>
           <div className="partner-group">
-            <Row gutter={[40, 30]} justify="center">
+            <Row gutter={[40, 30]}>
               <Col>
                 <img className="logoAV" src={LogoAV} alt="" />
               </Col>
@@ -304,9 +399,9 @@ const Home = () => {
         ></div>
         <div className="form-content">
           <h2>
-            ĐĂNG KÝ NHẬN TƯ VẤN
+            LIÊN HỆ
             <br className="br" />
-            VỀ SẢN PHẨM
+            VỚI CHÚNG TÔI
             <br className="br" />
           </h2>
 

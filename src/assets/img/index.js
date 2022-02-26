@@ -23,6 +23,16 @@ import Vip from "./Vip.png";
 import Vip2 from "./Vip2.png";
 import Vip3 from "./Vip3.jpg"
 import BoCT from "./BoCT.png";
+import Bud from "./Bud.png";
+import CNQT from "./CNQT.png";
+import CNYT from "./CNYT.png";
+import GreenBG from "./GreenBG.png";
+import GreenBG2 from "./GreenBG2.png";
+import GreenBG3 from "./GreenBG3.png";
+import GreenMealBox from "./GreenMealBox.png";
+import Production from "./Production.png";
+import ProductBG from "./ProductBG.png";
+import ProductBGHalf from "./ProductBGHalf.png";
 
 
 export {
@@ -50,5 +60,15 @@ export {
     Vip,
     Vip2,
     Vip3,
-    BoCT
+    BoCT,
+    Bud,
+    CNQT,
+    CNYT,
+    GreenBG,
+    GreenBG2,
+    GreenBG3,
+    GreenMealBox,
+    Production,
+    ProductBG,
+    ProductBGHalf
 }

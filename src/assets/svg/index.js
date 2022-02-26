@@ -22,6 +22,10 @@ import { ReactComponent as CallWhite } from "./CallWhite.svg";
 import { ReactComponent as ComputerWhite } from "./ComputerWhite.svg";
 import { ReactComponent as MessWhite } from "./MessWhite.svg";
 import { ReactComponent as Zalo } from "./Zalo.svg";
+import { ReactComponent as GreenMealGold } from "./GreenMealGold.svg";
+import { ReactComponent as Number1GM } from "./Number1GM.svg";
+import { ReactComponent as Number2GM } from "./Number2GM.svg";
+import { ReactComponent as Number3GM } from "./Number3GM.svg";
 
 export {
     Call,
@@ -47,5 +51,9 @@ export {
     CallWhite,
     ComputerWhite,
     MessWhite,
-    Zalo
+    Zalo,
+    GreenMealGold,
+    Number1GM,
+    Number2GM,
+    Number3GM
 }
