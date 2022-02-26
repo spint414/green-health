@@ -119,13 +119,13 @@ const Home = () => {
     },
     {
       img: HomeDN,
-      name: "TS. BS. Nguyễn Thị Kim Nga",
-      info: "Viện trưởng viện nghiên cứu Bách Khang Niên",
+      name: "BS. Nguyễn Mạnh Tuấn",
+      info: "Phó Giám đốc chuyên môn, Bệnh viện Đa khoa Hà Nội",
     },
     {
       img: HomeDN2,
-      name: "BS. Nguyễn Mạnh Tuấn",
-      info: "Phó Giám đốc chuyên môn, Bệnh viện Đa khoa Hà Nội",
+      name: "TS. BS. Nguyễn Thị Kim Nga",
+      info: "Viện trưởng viện nghiên cứu Bách Khang Niên",
     },
     {
       img: HomeDN3,
