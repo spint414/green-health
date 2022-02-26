@@ -5,7 +5,7 @@ import {
   LogoLVFH,
   LogoMD,
   LogoVD,
-  Apple,
+  HomeContact,
   Spoon,
   Jar,
   HomeDN,
@@ -104,33 +104,33 @@ const Home = () => {
   const doingubslist = [
     {
       img: HomeDN,
-      name: "TS. Nguyễn Văn P",
-      info: "Lorem ipsum dolor sit áđâsđâsdamet, consectetur adipiscing elit ut aliquam",
+      name: "TS. BS. Nguyễn Thị Kim Nga",
+      info: "Viện trưởng viện nghiên cứu Bách Khang Niên",
     },
     {
       img: HomeDN2,
-      name: "TS. Nguyễn Văn P",
-      info: "Lorem ipsum dolor sit áđâsđâsdamet, consectetur adipiscing elit ut aliquam",
+      name: "BS. Nguyễn Mạnh Tuấn",
+      info: "Phó Giám đốc chuyên môn, Bệnh viện Đa khoa Hà Nội",
     },
     {
       img: HomeDN3,
-      name: "TS. Nguyễn Văn P",
-      info: "Lorem ipsum dolor sit áđâsđâsdamet, consectetur adipiscing elit ut aliquam",
+      name: "PhD. Nguyẽn Văn Hạnh",
+      info: "15 năm hoạt động trong ngành Công Nghệ  Y Tế",
     },
     {
       img: HomeDN,
-      name: "TS. Nguyễn Văn P",
-      info: "Lorem ipsum dolor sit áđâsđâsdamet, consectetur adipiscing elit ut aliquam",
+      name: "TS. BS. Nguyễn Thị Kim Nga",
+      info: "Viện trưởng viện nghiên cứu Bách Khang Niên",
     },
     {
       img: HomeDN2,
-      name: "TS. Nguyễn Văn P",
-      info: "Lorem ipsum dolor sit áđâsđâsdamet, consectetur adipiscing elit ut aliquam",
+      name: "BS. Nguyễn Mạnh Tuấn",
+      info: "Phó Giám đốc chuyên môn, Bệnh viện Đa khoa Hà Nội",
     },
     {
       img: HomeDN3,
-      name: "TS. Nguyễn Văn P",
-      info: "Lorem ipsum dolor sit áđâsđâsdamet, consectetur adipiscing elit ut aliquam",
+      name: "PhD. Nguyẽn Văn Hạnh",
+      info: "15 năm hoạt động trong ngành Công Nghệ  Y Tế",
     },
   ];
 
@@ -216,9 +216,9 @@ const Home = () => {
                   khách hàng chăm sóc sức khỏe ngay khi cơ thể bình thường. để
                   đẩy lùi bệnh tật hết mức có thể.
                 </p>
-                <a className="buttona" href="!#">
+                <Link to={paths.chung_toi}>
                   <Button>Xem thêm &#8594;</Button>
-                </a>
+                </Link>
               </div>
             </Col>
           </Row>
@@ -296,33 +296,30 @@ const Home = () => {
                   <div className="section">
                     <Number1GM />
                     <div className="text">
-                      <p>Lorem ipsum dolor sit amet, consectetur</p>
+                      <p>Thành phần dinh dưỡng cao cấp</p>
                       <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit
-                        ut aliquam, purus sit amet luctus venenatis, lectus
-                        magna fringilla urna, porttitor rhoncus
+                        Được tinh lọc từ tảo biển và các loại dược liệu quý,
+                        mang tới hiệu quả vượt trội, an toàn tuyệt đối.
                       </p>
                     </div>
                   </div>
                   <div className="section">
                     <Number2GM />
                     <div className="text">
-                      <p>Lorem ipsum dolor sit amet, consectetur</p>
+                      <p>Hỗ trợ tăng sức đề kháng</p>
                       <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit
-                        ut aliquam, purus sit amet luctus venenatis, lectus
-                        magna fringilla urna, porttitor rhoncus
+                        Cải thiện sức khỏe, gia tăng đề kháng giúp cơ thể chống
+                        lại bệnh tật, gia tăng tốc độ phục hồi sau điều trị.
                       </p>
                     </div>
                   </div>
                   <div className="section">
                     <Number3GM />
                     <div className="text">
-                      <p>Lorem ipsum dolor sit amet, consectetur</p>
+                      <p>Tăng cường chức năng cơ thể</p>
                       <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit
-                        ut aliquam, purus sit amet luctus venenatis, lectus
-                        magna fringilla urna, porttitor rhoncus
+                        Tăng cường chức năng gan, thận, phổi, đặc biệt là tiêu
+                        hóa. Hỗ trợ tích cực tới quá trình trao đổi chất.
                       </p>
                     </div>
                   </div>
@@ -363,7 +360,7 @@ const Home = () => {
         <div
           className="form-image"
           style={{
-            backgroundImage: "url(" + Apple + ")",
+            backgroundImage: "url(" + HomeContact + ")",
             backgroundSize: "cover",
             backgroundPosition: "center",
             backgroundRepeat: "no-repeat",
@@ -371,10 +368,7 @@ const Home = () => {
         ></div>
         <div className="form-content">
           <h2>
-            LIÊN HỆ
-            <br className="br" />
-            VỚI CHÚNG TÔI
-            <br className="br" />
+            LIÊN HỆ VỚI CHÚNG TÔI
           </h2>
 
           <Form>

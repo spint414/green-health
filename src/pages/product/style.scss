@@ -18,6 +18,10 @@
     }
   }
 
+  .center {
+    text-align: center;
+  }
+
   img {
     max-width: 100%;
     margin-block: $gap;
@@ -31,10 +35,6 @@
     @include responsive-xs() {
       font-size: 35px;
     }
-  }
-
-  .spanCenter {
-    text-align: center;
   }
 
   h2 {

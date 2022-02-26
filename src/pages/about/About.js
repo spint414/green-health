@@ -1,13 +1,10 @@
 import "./style.scss";
 import {
   AboutBanner,
-  Award,
-  Award2,
-  Award3,
   People,
   Vip,
   Vip2,
-  Vip3
+  Vip3,
 } from "../../assets/img";
 
 const About = () => {
@@ -29,19 +26,14 @@ const About = () => {
             style={{ backgroundImage: `url(${People})` }}
           ></div>
           <p>
-            Green Health là dự án khởi nghiệp với thế mạnh là đội ngũ sáng lập bao
-            gồm các Tiến Sĩ, Thạc Sĩ tu nghiệp tại Pháp, chuyên nghiên cứu và
-            phát triển công nghệ mới áp dụng trong lĩnh vực y tế, sản phẩm y tế
-            chất lượng, dễ tiếp cận, phục vụ cộng đồng. Tham gia tư vấn và hỗ
-            trợ cùng chúng tôi là nhóm các bác sĩ, chuyên gia trong lĩnh vực Y
-            tế ở Việt Nam và Pháp.
-            <br />
-            <br />
-            Chúng tôi hiểu rõ những bất cập mà hệ thống y tế ở Việt nam đang gặp
-            phải. Green Health mong muốn đem khả năng của mình góp phần xóa bỏ những
-            khuyết điểm đó. Làm chủ công nghệ và hiểu được giá trị to lớn mà
-            công nghệ hiện đại có thể mang lại cho hệ thống chăm sóc sức khỏe
-            cùng với cộng đồng bác sĩ giỏi, có tâm, có tài và nhiệt huyết.
+            Với sự thấu hiểu tiềm năng của thảo dược, chúng tôi chuyên nghiên
+            cứu, khai thác và nuôi trồng những loại thảo dược tốt nhất với mục
+            tiêu mang tới cho người dùng những sản phẩm chăm sóc sức khỏe được
+            tạo ra từ tinh hoa dược liệu Việt Nam kết hợp với công nghệ sản xuất
+            đạt chuẩn thế giới. Green health mong muốn mang đến những chế độ
+            dinh dưỡng phù hợp nhất giúp khách hàng chăm sóc sức khỏe ngay khi
+            cơ thể bình thường. để hạn chế tối đa khả năng phải đối mặt với bệnh
+            tật.
           </p>
         </div>
       </div>
@@ -53,19 +45,16 @@ const About = () => {
           <div className="about-vision">
             <h2>Mục tiêu</h2>
             <p>
-              Chúng tôi hướng đến trở thành hệ sinh thái chăm sóc sức khoẻ ứng
-              dụng công nghệ tiên tiến lớn nhất Việt Nam.
+              Green Health đặt mục tiêu trở thành đơn vị sản xuất dược liệu lớn
+              nhất Đông Nam Á. vào năm 2030
             </p>
             <br />
             <h2>Tầm nhìn & sứ mệnh</h2>
             <p>
-              Green Health hướng đến trở thành hệ sinh thái chăm sóc sức
-              khỏe ứng dụng công nghệ tiên tiến lớn nhất Việt Nam.
-              <br />
-              <br />
-              Chúng tôi cam kết mang đến cho cộng đồng nền y tế hiện đại hơn,
-              tiện lợi hơn với mức chi tiêu cho hoạt động khám, chữa bệnh thấp
-              hơn.
+              Green Health luôn hướng tới giá trị cho người dùng, chúng tôi luôn
+              cải tiến sản phẩm nhằm mang tới hiệu quả tối ưu nhất với chi phí
+              hợp lý nhất để mỗi người dân Việt Nam có thể tiếp cận và sở hữu
+              nền tảng sức khỏe tuyệt vời hơn mỗi ngày.
             </p>
           </div>
           <div className="about-team">
@@ -79,27 +68,14 @@ const About = () => {
               <div className="boss-wrap">
                 <img src={Vip2} alt="" />
                 <h3>BS NGUYỄN MẠNH TUẤN</h3>
-                <span>Co-  Founder</span>
+                <span>Co- Founder</span>
               </div>
               <div className="boss-wrap">
                 <img src={Vip3} alt="" />
                 <h3>TS.BS. NGUYỄN THỊ KIM NGA</h3>
-                <span>Co-  Founder</span>
+                <span>Co- Founder</span>
               </div>
             </div>
-          </div>
-        </div>
-      </div>
-
-      <div className="about-divider" />
-
-      <div className="about-award">
-        <div className="container">
-          <h2>Giải thưởng</h2>
-          <div className="img-wrap">
-            <img src={Award} alt="" />
-            <img src={Award2} alt="" />
-            <img src={Award3} alt="" />
           </div>
         </div>
       </div>

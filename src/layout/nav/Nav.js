@@ -42,13 +42,13 @@ const Nav = () => {
               <div className="vl"></div>
             </li>
             <li>
-              <a href="/">Sản phẩm</a>
+              <Link to={paths.san_pham}>Sản phẩm</Link>
             </li>
             <li>
               <div className="vl"></div>
             </li>
             <li>
-            <Link to={paths.duoc_lieu}>Dược liệu</Link>
+              <Link to={paths.duoc_lieu}>Dược liệu</Link>
             </li>
             <li>
               <div className="vl"></div>

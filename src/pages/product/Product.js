@@ -1,12 +1,30 @@
 import "./style.scss";
-import { TwoPerson } from "../../assets/img/index";
+import { TwoPerson, ProductGM } from "../../assets/img/index";
 
 const Product = () => {
   return (
     <div className="container1">
       <div className="inner">
         <h1>GREEN MEAL</h1>
-        <p className="spanCenter"><i>Bữa ăn dinh dưỡng bổ sung</i></p>
+        <p className="center">
+          <i>
+            Là tinh hoa được đúc kết từ kho tàng kiến thức y khoa, Green Meal tự
+            hào mang tới bữa ăn bổ sung dinh dưỡng cao cấp dành cho sức khỏe
+            người Việt.
+          </i>
+        </p>
+        <br />
+        <div className="image">
+          <img src={ProductGM} alt="" />
+        </div>
+        <br />
+        <h2>Sản phẩm đặc biệt phù hợp cho:</h2>
+        <p>- Người suy dinh dưỡng, sức đề kháng kém </p>
+        <br />
+        <p>- Người vừa trải qua chấn thương, phẫu thuật</p>
+        <br />
+        <p>- Trẻ biếng ăn, còi xương</p>
+        <br />
         <h2>Hiệu quả nổi bật: </h2>
         <ul className="dot">
           <li>
