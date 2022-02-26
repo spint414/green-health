@@ -46,7 +46,7 @@ const About = () => {
             <h2>Mục tiêu</h2>
             <p>
               Green Health đặt mục tiêu trở thành đơn vị sản xuất dược liệu lớn
-              nhất Đông Nam Á. vào năm 2030
+              nhất Đông Nam Á vào năm 2030
             </p>
             <br />
             <h2>Tầm nhìn & sứ mệnh</h2>
