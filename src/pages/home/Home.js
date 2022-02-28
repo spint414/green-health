@@ -216,9 +216,11 @@ const Home = () => {
                   khách hàng chăm sóc sức khỏe ngay khi cơ thể bình thường. để
                   đẩy lùi bệnh tật hết mức có thể.
                 </p>
-                <Link to={paths.chung_toi}>
-                  <Button>Xem thêm &#8594;</Button>
-                </Link>
+                <div className="button">
+                  <Link to={paths.chung_toi}>
+                    <Button>Xem thêm &#8594;</Button>
+                  </Link>
+                </div>
               </div>
             </Col>
           </Row>
@@ -367,9 +369,7 @@ const Home = () => {
           }}
         ></div>
         <div className="form-content">
-          <h2>
-            LIÊN HỆ VỚI CHÚNG TÔI
-          </h2>
+          <h2>LIÊN HỆ VỚI CHÚNG TÔI</h2>
 
           <Form>
             <Form.Item
@@ -405,9 +405,9 @@ const Home = () => {
               <Input placeholder="Nội dung" />
             </Form.Item>
 
-            <Form.Item htmlFor="submit">
+            {/* <Form.Item htmlFor="submit"> */}
               <Button>Gửi ngay</Button>
-            </Form.Item>
+            {/* </Form.Item> */}
           </Form>
         </div>
       </div>

@@ -70,22 +70,25 @@
             }
           }
 
-          .ant-btn {
-            span {
-              color: white;
-              font-weight: 600;
-              font-size: 24px;
-            }
-            border-radius: 30px;
-            height: 60px;
-            width: 250px;
-            background-color: $green2;
-            border: none;
+          .button {
             display: flex;
-            align-items: center;
-            justify-content: center;
             @include r1200 {
-              margin: auto;
+              justify-content: center;
+            }
+            .ant-btn {
+              span {
+                color: white;
+                font-weight: 600;
+                font-size: 24px;
+              }
+              border-radius: 30px;
+              height: 60px;
+              width: 250px;
+              background-color: $green2;
+              border: none;
+              display: flex;
+              align-items: center;
+              justify-content: center;
             }
           }
         }
@@ -116,6 +119,36 @@
 
     .slick-arrow {
       display: none !important;
+    }
+
+    .right,
+    .left {
+      display: flex !important;
+      align-items: center !important;
+
+      .icon {
+        cursor: pointer;
+        display: flex !important;
+        width: 48px;
+        height: 48px;
+        background: rgba(0, 159, 33, 0.6);
+        border-radius: 100px;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 0 0 0 6px rgba(0, 159, 33, 0.2);
+        transition: box-shadow 0.3s ease-in;
+        &:hover {
+          box-shadow: 0 0 0 6px rgba(0, 159, 33, 0.6);
+        }
+        @include r1024() {
+          width: 30px;
+          height: 30px;
+        }
+      }
+    }
+
+    .right {
+      justify-content: flex-end;
     }
 
     .group {
@@ -242,6 +275,11 @@
       padding-left: 20px;
     }
 
+    a {
+      width: 300px;
+      display: block;
+    }
+
     .title {
       margin-bottom: 4px !important;
       color: $white;
@@ -282,14 +320,14 @@
 
     .ant-btn {
       span {
-        color: #14613C;
+        color: #14613c;
         font-weight: 600;
         font-size: 20px;
       }
       border-radius: 99999px;
       height: 60px;
       width: 300px;
-      background-color: #FFE665;
+      background-color: #ffe665;
       border: none;
       display: flex;
       align-items: center;
@@ -297,36 +335,6 @@
       box-shadow: 3px 4px 8px rgba(0, 0, 0, 0.25);
     }
   }
-}
-
-.right,
-.left {
-  display: flex !important;
-  align-items: center !important;
-
-  .icon {
-    cursor: pointer;
-    display: flex !important;
-    width: 48px;
-    height: 48px;
-    background: rgba(0, 159, 33, 0.6);
-    border-radius: 100px;
-    justify-content: center;
-    align-items: center;
-    box-shadow: 0 0 0 6px rgba(0, 159, 33, 0.2);
-    transition: box-shadow 0.3s ease-in;
-    &:hover {
-      box-shadow: 0 0 0 6px rgba(0, 159, 33, 0.6);
-    }
-    @include r1024() {
-      width: 30px;
-      height: 30px;
-    }
-  }
-}
-
-.right {
-  justify-content: flex-end;
 }
 
 .home-partner {
