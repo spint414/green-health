@@ -3,9 +3,12 @@ import { Call, LogoGH, Search } from "../../assets/svg/index";
 import { NavBanner } from "../../assets/img/index";
 import { Input } from "antd";
 import { paths } from "../../constant";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
+import clsx from "clsx";
 
 const Nav = () => {
+  let location = useLocation();
+
   return (
     <section className="nav">
       <div className="container">
@@ -35,31 +38,51 @@ const Nav = () => {
       >
         <div className="warp-nav-bottom">
           <ul>
-            <li>
+            <li
+              className={clsx(
+                location.pathname === paths.chung_toi ? "active" : " "
+              )}
+            >
               <Link to={paths.chung_toi}>Về chúng tôi</Link>
             </li>
             <li>
               <div className="vl"></div>
             </li>
-            <li>
+            <li
+              className={clsx(
+                location.pathname === paths.san_pham ? "active" : " "
+              )}
+            >
               <Link to={paths.san_pham}>Sản phẩm</Link>
             </li>
             <li>
               <div className="vl"></div>
             </li>
-            <li>
+            <li
+              className={clsx(
+                location.pathname === paths.duoc_lieu ? "active" : " "
+              )}
+            >
               <Link to={paths.duoc_lieu}>Dược liệu</Link>
             </li>
             <li>
               <div className="vl"></div>
             </li>
-            <li>
+            <li
+              className={clsx(
+                location.pathname === paths.tin_tuc ? "active" : " "
+              )}
+            >
               <Link to={paths.tin_tuc}>Tin tức</Link>
             </li>
             <li>
               <div className="vl"></div>
             </li>
-            <li>
+            <li
+              className={clsx(
+                location.pathname === paths.lien_he ? "active" : " "
+              )}
+            >
               <Link to={paths.lien_he}>Liên hệ</Link>
             </li>
           </ul>
