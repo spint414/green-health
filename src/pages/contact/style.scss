@@ -94,11 +94,8 @@
 }
 
 .form-send {
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
   .layer {
-    background-color: rgba(74, 107, 222, 0.9);
+    background-color: $grey3;
     padding-top: 25px;
     padding-bottom: 25px;
 
@@ -115,7 +112,7 @@
       }
   
       * {
-        color: #fff;
+        color: #7b7b7b;
       }
   
       h2 {
@@ -132,13 +129,13 @@
         font-size: 16px;
         font-weight: 300 !important;
         border: none;
-        border-bottom: 1px solid #fff;
+        border-bottom: 1px solid #7b7b7b;
         border-radius: 0;
         background-color: unset;
-        color: #fff;
+        color: #7b7b7b;
   
         &::placeholder {
-          color: #fff;
+          color: #7b7b7b;
         }
   
         &:focus {

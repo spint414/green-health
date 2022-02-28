@@ -82,7 +82,7 @@ const Contact = () => {
         </div>
       </div>
 
-      <div className="form-send" style={{ backgroundImage: `url(${Banner5})` }}>
+      <div className="form-send">
         <div className="layer">
           <div className="container">
             <iframe
