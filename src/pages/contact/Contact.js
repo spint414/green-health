@@ -1,5 +1,4 @@
 import { Form, Input, Row } from "antd";
-import { Banner5 } from "../../assets/img";
 import {
   Envelop,
   FacebookCl,
