@@ -59,13 +59,13 @@ const News = () => {
 
       <div id={news["block-2"]}>
         <div className={news["left-col"]}>
-          {posts.slice(1, 4).map((post) => (
+          {posts.slice(1, 6).map((post) => (
             <CompMd post={post} history={history} />
           ))}
         </div>
 
         <div className={news["right-col"]}>
-          {posts.slice(4, 7).map((post) => (
+          {posts.slice(6, 10).map((post) => (
             <CompMd post={post} history={history} />
           ))}
         </div>
@@ -86,9 +86,9 @@ const CompSm = memo(({ post, history }) => (
     <p>
       <span className={news["day"]}>{moment(post.date, "DD/MM/YYYY").format("DD/")}</span>
 
-      {moment().format("MM")}
+      {moment(post.date, "DD/MM/YYYY").format("MM")}
 
-      <span className={news["year"]}>{moment().format("YYYY")}</span>
+      <span className={news["year"]}>{moment(post.date, "DD/MM/YYYY").format("YYYY")}</span>
     </p>
 
     <div>

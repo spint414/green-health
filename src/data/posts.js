@@ -5,7 +5,16 @@ import {
   ThuTuongCovid,
   TiemTreEm,
   TiemTreEm2,
-  TrungBinh7Ngay
+  TrungBinh7Ngay,
+  KiengCovid,
+  KiengCovid2,
+  KiengCovid3,
+  Corticoid,
+  VitaminC,
+  VitaminC2,
+  VitaminC3,
+  VitaminC4,
+  F0Shower,
 } from "./img";
 
 const posts = [
@@ -1141,7 +1150,451 @@ const posts = [
     <span> Nguồn: suckhoedoisong.vn </span>
     `,
   },
+  {
+    date: `01/03/2020`,
+    slug: `mac-covid19-can-kieng-cu-gi`,
+    title: `Mắc COVID-19 cần kiêng cữ gì?`,
+    featureImg: KiengCovid,
+    excerpt: `SKĐS- Số người nhiễm SARS-CoV-2 tăng cao, rất nhiều F0 hiện đang điều trị tại nhà. Người nhà cũng như F0 đều lo lắng. Một trong những câu hỏi thường gặp là: Người mắc COVID-19 cần kiêng cữ gì khi điều trị tại nhà?`,
+    content: `    <br />
+    <p>
+      <b
+        >SKĐS- Số người nhiễm SARS-CoV-2 tăng cao, rất nhiều F0 hiện đang điều trị tại nhà. Người nhà cũng như F0 đều lo lắng. Một trong những câu hỏi thường gặp là: Người mắc COVID-19 cần kiêng cữ gì khi điều trị tại nhà?</b
+      >
+    </p>
+    <br />
+    <p>
+      Bình thường, một chế độ dinh dưỡng, sinh hoạt hợp lý, đúng khoa học sẽ
+      giúp cho cơ thể khỏe mạnh, tăng sức đề kháng, phòng ngừa và chống lại bệnh
+      tật. Khi mắc COVID-19, chú trọng tới dinh dưỡng và sinh hoạt sẽ giúp người
+      bệnh mau hồi phục hơn. Sau đây là một số lưu ý với người bệnh:
+    </p>
+    <br />
+    <h2>
+      1. Kiêng ăn nhiều đồ chiên xào, nhiều dầu mỡ, thực phẩm chế biến sẵn...
+    </h2>
+    <p>
+      Theo ThS.BS. Nguyễn Văn Tiến - Trung tâm Giáo dục Truyền thông Dinh dưỡng
+      - Viện Dinh dưỡng Quốc gia, người bị COVID-19 thường mệt mỏi, chán ăn vì
+      vậy, cần ăn nhiều lần trong ngày, khoảng 5 bữa/ngày, tránh ăn quá no có
+      thể gây khó thở. Các món ăn chế biến ở dạng mềm, thái nhỏ, hầm kỹ để dễ
+      tiêu hóa và hấp thu.
+    </p>
+    <br />
+    <p>
+      Người bị COVID cần kiêng món ăn chiên, rán, nướng bởi các món này sẽ gây
+      khó tiêu, mệt mỏi thêm cho cơ thể. Nên thay thế bằng các món luộc, hấp,
+      nấu. Nguyên tắc dinh dưỡng là cân đối và đầy đủ năng lượng, đủ các nhóm
+      chất dinh dưỡng.
+    </p>
+    <br />
+    <div class="image">
+      <img src="${KiengCovid}" alt="" />
+      <span
+        >Cháo thịt nạc bí đỏ dễ tiêu hóa phù hợp với người mắc COVID khi sốt,
+        đau đầu, mệt mỏi</span
+      >
+    </div>
+    <br />
+    <h2>
+      2. Kiêng tắm nước lạnh, tắm khi mệt nặng hoặc bản thân có thêm bệnh nền
+    </h2>
+    <p>
+      TS. BS Quan Thế Dân, người từng tham gia hỗ trợ điều trị bệnh nhân
+      COVID-19 tại Bình Dương, khuyên người bị COVID-19 nên cẩn thận trong việc
+      xông, tắm. Ông nhấn mạnh: Người suy nhược nặng, người huyết áp thấp, đang
+      mắc các bệnh tim gan thận nặng không nên tắm mà dùng biện pháp tắm khô:
+      lau người nhanh rồi thay quần áo.
+    </p>
+    <br />
+    <p>
+      Đối với người bệnh COVID-19 nói chung, chỉ nên tắm 2 ngày 1 lần, tắm
+      nhanh, có thể tận dụng nồi lá xông, xông xong rồi tắm nhanh trong 5 – 10
+      phút, lau khô người. Không xông hơi hoặc tắm nhiều lần trong ngày vì cũng
+      chẳng làm khỏe hơn mà còn gây hại. Xông hơi quá nhiều lần gây mất mồ hôi,
+      mất các chất muối trong cơ thể, làm rối loạn chuyển hóa, cơ thể càng yếu
+      hơn.
+    </p>
+    <br />
+    <p>
+      Theo Thạc sĩ, bác sĩ Kiều Xuân Thy (Bệnh viện Đại học Y Dược TP HCM cơ sở
+      3) : Với khí hậu phương Nam, người bệnh COVID-19 có thể vệ sinh thân thể
+      với nước ấm, không tắm gội bằng nước lạnh, tránh tắm bồn trong thời gian
+      đang bệnh (không ngâm toàn thân trong bồn tắm). Gội đầu với nước ấm.
+    </p>
+    <br />
+    <p>
+      Sau tắm gội nên lau khô thân thể và tóc bằng khăn bông, tránh dùng quạt,
+      đứng nơi có gió để phòng ngừa cảm nhiễm phong hàn. Thời gian tắm gội không
+      nên quá lâu (chia tắm và gội vào thời gian riêng), vệ sinh vào buổi sáng
+      hoặc chiều sớm và tránh ban đêm.
+    </p>
+    <br />
+    <div class="image">
+      <img src="${KiengCovid2}" alt="" />
+      <span
+        >Người mắc COVID-19 nên kiêng tắm nước lạnh và ngâm mình trong bồn tắm
+        trong thời gian bị bệnh</span
+      >
+    </div>
+    <br />
+    <h2>3. Kiêng nằm trên giường suốt ngày</h2>
+    <p>
+      Dù mệt mỏi, người mắc COVID-19 nên cố gắng vận động trong khả năng. Trong
+      Tài liệu Hướng dẫn Chăm sóc người nhiễm COVID-19 tại nhà do Bộ Y tế ban
+      hành, chuyên gia y tế khuyên người bệnh cần vận động hợp lý, tập luyện
+      tăng cường chức năng hô hấp và vận động hàng ngày với tinh thần lạc quan
+      để cải thiện sức khỏe. Tập luyện, vận động trong giai đoạn này sẽ giúp
+      người bệnh giãn nở lồng ngực, tăng thông khí ra vào phổi, hô hấp tốt hơn;
+      Tống thải đờm với các trường hợp có tăng tiết đờm; Tăng cường khả năng vận
+      động và các cơ tham gia hô hấp; Ngăn chặn suy giảm thể chất, cải thiện
+      tinh thần. Một số bài tập thở, vận động được khuyên dùng cho người bệnh
+      COVID-19 gồm: Các bài tập thở, vận động tại giường, tập giãn cơ, tập thể
+      lực tăng sức bền.
+    </p>
+    <br />
+    <p>
+      Trong quá trình tập luyện nếu xuất hiện các biểu hiện bất thường: mệt, khó
+      thở hay đau ngực tăng cần dừng tập và theo dõi cơ thể. Nếu các biểu hiện
+      này tăng lên cả khi nghỉ cần báo ngay cho nhân viên y tế để được theo dõi
+      kịp thời.
+    </p>
+    <br />
+    <h2>4. Kiêng căng thẳng, lo lắng</h2>
+    <div class="image">
+      <img src="${KiengCovid3}" alt="" />
+      <span>Người mắc COVID-19 cần giữ tinh thần lạc quan, thực hành thiền và các
+        bài tập thở hàng ngày</span>
+    </div>
+    <br />
+    <p>
+      Thời điểm bạn nhận kết quả test COVID-19 dương tính là thời điểm khó tránh
+      được sự lo lắng và căng thẳng. Lo sợ bệnh COVID-19, lo lắng cho người
+      thân, căng thẳng bởi các vấn đề phát sinh do tình trạng dương tính với
+      SARS-CoV-2… Các nghiên cứu đã chứng minh sự lo lắng, căng thẳng không có
+      lợi cho sức khỏe, khiến cho hệ miễn dịch suy yếu, ảnh hưởng cả sức khỏe
+      tinh thần lẫn thể chất.
+    </p>
+    <br />
+    <p>
+      Trong Hướng dẫn Chăm sóc người nhiễm COVID-19 tại nhà, Bộ Y tế chỉ rõ nguy
+      cơ của người mắc COVID-19 khi rơi vào tình trạng căng thẳng tinh thần như:
+      Mất ngủ, khó ngủ, khó tập trung; Ăn uống kém, chán ăn; Các bệnh mạn tính
+      (như bệnh dạ dày, tim mạch…) trở nên trầm trọng hơn; Các bệnh tâm thần có
+      thể trầm trọng hơn; Dễ gia tăng uống rượu, hút thuốc hoặc sử dụng các loại
+      thuốc khác nhiều hơn…
+    </p>
+    <br />
+    <p>
+      Để ứng phó với căng thẳng tinh thần, người mắc COVID-19 nên: Tránh xem,
+      đọc hoặc nghe những câu chuyện tin tức về dịch COVID-19, nhất là trên các
+      mạng xã hội… Hít thở sâu hoặc thực hành thiền hàng ngày; Dành thời gian
+      nghỉ ngơi thư giãn. Cố gắng thực hiện một vài hoạt động mà bản thân yêu
+      thích như: đọc sách, vẽ, xem phim, nghe nhạc, làm mô hình, nấu ăn (nếu có
+      thể)… Tăng cường giao tiếp, kết nối với những người khác. Chia sẻ về những
+      lo lắng của bản thân với bạn bè, bác sĩ…
+    </p>
+    <br />
+    <span> Nguồn: Sức khỏe & Đời sống </span>`,
+  },
+  {
+    date: `23/02/2022`,
+    slug: `chuyen-gia-canh-bao-f0-tu-y-dung-corticoid-dieu-tri-covid19-tai-nha`,
+    title: `Chuyên gia cảnh báo F0 tự ý dùng corticoid điều trị COVID-19 tại nhà`,
+    featureImg: Corticoid,
+    excerpt: `Theo PGS. TS. Nguyễn Thị Liên Hương (Trường Đại học Dược - Hà Nội), các thuốc kháng viêm nhóm corticoid (dexamethason, prednison, methylprednisolon, hydrocortison…)...`,
+    content: `       <br />
+    <h2>1. Corticoid là con dao hai lưỡi</h2>
+    <p>
+      Theo PGS. TS. Nguyễn Thị Liên Hương (Trường Đại học Dược - Hà Nội), các
+      thuốc kháng viêm nhóm corticoid (dexamethason, prednison,
+      methylprednisolon, hydrocortison…), bản chất thuộc nhóm hormon, với đặc
+      tính sinh học rất mạnh ở ngay mức liều rất nhỏ và có khả năng tác động đến
+      rất nhiều cơ quan, tổ chức trong cơ thể.
+    </p>
+    <br />
+    <p>
+      Corticoid là nhóm thuốc kháng viêm rất quen thuộc được sử dụng trong điều
+      trị nhiều bệnh: Ức chế rối loạn viêm, chống dị ứng và ức chế hệ thống miễn
+      dịch. Tuy nhiên, các thuốc này chỉ sử dụng sau khi cân nhắc rất kỹ lợi
+      ích/nguy cơ và chỉ sử dụng khi thật cần thiết.
+    </p>
+    <br />
+    <p>
+      Người bệnh chỉ dùng các thuốc corticoid khi được bác sĩ kê đơn và phải
+      dùng đúng liều lượng, thời gian do bác sĩ kê.
+    </p>
+    <br />
+    <p>
+      Cần đặc biệt lưu ý là, các thuốc corticoid có rất nhiều tác dụng phụ khác
+      kể cả khi dùng trong thời gian ngắn như gây tăng đường huyết, tăng nhãn
+      áp, loạn thần, loét tiêu hóa… dùng dài có thể gây ức chế trục dưới đồi -
+      tuyến yên - tuyến thượng thận, gây suy thượng thận cấp, gây loãng xương,
+      rối loạn nội tiết… và nhiều tác dụng phụ nguy hiểm khác.
+    </p>
+    <br />
+    <h2>2. Chỉ dùng corticoid điều trị COVID-19 khi được bác sĩ kê đơn</h2>
+    <p>
+      PGS.TS. Nguyễn Thị Liên Hương cho biết, để điều trị COVID-19 một cách hiệu
+      quả, cần phải hiểu rõ cả về bệnh và về thuốc. Người mắc bệnh COVID-19 có
+      thể ở các mức độ khác nhau, từ không có triệu chứng, triệu chứng nhẹ,
+      trung bình, nặng và nguy kịch. Với mỗi mức độ bệnh, cơ chế bệnh sinh rất
+      khác nhau, thậm chí đối nghịch nhau, đòi hỏi phải lựa chọn thuốc thật cẩn
+      thận. Nếu thuốc dùng cho mức độ bệnh này bị nhầm sang mức độ bệnh khác,
+      không những không có lợi mà còn gây hại, thậm chí ảnh hưởng nghiêm trọng
+      đến sức khỏe người bệnh.
+    </p>
+    <br />
+    <p>
+      Đơn cử với trường hợp thuốc nhóm corticoid, với hai thuốc hay được nhắc
+      đến trong điều trị COVID-19 là dexamethason và methylprednisolon (medrol).
+      Nhóm thuốc này chỉ được dùng cho người bệnh từ mức độ trung bình trở lên,
+      chủ yếu do trên những người bệnh này, hệ miễn dịch có thể đang hoạt động
+      quá mức và gây ra tổn thương các cơ quan khác nhau trong cơ thể.
+      Dexamethason hay methylprednisolon được chỉ định do thuốc có tác dụng ức
+      chế miễn dịch, vào cơ thể sẽ tác động "kìm hãm" ảnh hưởng của quá mức của
+      hệ thống miễn dịch đang tấn công và gây tổn thương cơ quan. Thử nghiệm lâm
+      sàng đã chứng minh với những trường hợp này, dùng corticoid đã làm giảm
+      được thời gian nằm viện và cải thiện tỷ lệ tử vong.
+    </p>
+    <br />
+    <p>
+      Tuy nhiên, chỉ một tỷ lệ rất nhỏ người bệnh COVID-19 rơi vào tình trạng hệ
+      thống miễn dịch hoạt động quá mức như trên. Phần lớn các trường hợp, hệ
+      thống miễn dịch chỉ kích hoạt ở mức độ vừa đủ để làm đúng chức năng của nó
+      khi cơ thể nhiễm virus. Hệ thống miễn dịch chính là "sức đề kháng" tự
+      nhiên của cơ thể, giúp chiến đấu và loại bỏ virus.
+    </p>
+    <br />
+    <p>
+      Do vậy, trong những trường hợp này, nếu tự ý dùng corticoid điều trị
+      COVID-19, hệ miễn dịch của người bệnh sẽ bị ức chế, vô hình lại tiếp sức
+      cho virus nhân lên và làm bệnh lý nặng nề hơn.
+    </p>
+    <br />
+    <p>
+      Cùng với đó, khi hệ thống miễn dịch của cơ thể bị yếu đi, còn có nguy cơ
+      gia tăng bội nhiễm các tác nhân gây bệnh khác như vi khuẩn, nấm… làm tình
+      trạng người bệnh càng phức tạp.
+    </p>
+    <br />
+    <div class="image">
+      <img src="${Corticoid}" alt="" />
+      <span>Chỉ dùng corticoid điều trị COVID-19 khi được bác sĩ kê đơn.</span>
+    </div>
+    <br />
+    <h2>3. Coi chừng bão cytokin, tác hại khôn lường</h2>
+    <p>
+      Hiện nay, trên mạng nhiều người đã chia sẻ cách điều trị COVID-19, trong
+      đó khuyên: Nên dùng các thuốc corticoid sớm để tránh gặp bão cytokin, được
+      cho là nguyên nhân gây COVID-19 nghiêm trọng.
+    </p>
+    <br />
+    <p>
+      Hội chứng cơn bão cytokine hay còn gọi là hội chứng giải phóng cytokine,
+      thực chất là tình trạng hệ miễn dịch của cơ thể phản ứng quá mức với các
+      tác nhân xâm nhập như virus gây bệnh và dẫn đến phản ứng viêm toàn hệ
+      thống.
+    </p>
+    <br />
+    <p>
+      Tuy nhiên, đây là những thông tin sai lệch. BS. Nguyễn Huy Hoàng (Trung
+      tâm oxy cao áp Việt-Nga) cho hay, không dùng corticoid để dự phòng bão
+      cytokin ở bệnh nhân COVID-19. Corticoid chống được bão cytokin nhưng phải
+      được bác sĩ phải chỉ định và theo dõi sát sao.
+    </p>
+    <br />
+    <p>
+      Đến nay, các nghiên cứu cho thấy, việc dùng corticoid sớm (khi chưa phải
+      thở oxy, khi SpO2 còn trên 95%) đều làm cho tỷ lệ trở nặng và tỷ lệ tử
+      vong do COVID-19 cao hơn so với không dùng corticoid).
+    </p>
+    <br />
+    <p>
+      Việc sử dụng corticoid với mục đích để ức chế các cytokine sẽ có thể có
+      nhiều tác dụng phụ. Nếu dùng các thuốc corticoid liều cao và kéo dài có
+      thể gặp tác dụng phụ nguy hiểm: Làm giảm miễn dịch quá mức gây bùng phát
+      các bệnh nhiễm trùng cơ hội và làm nặng thêm bệnh đái tháo đường.
+    </p>
+    <br />
+    <p>
+      Vì các lý do này, khi dùng corticoid trong điều trị nói chung và trong
+      điều trị COVID-19 nói riêng cần rất thận trọng, cân nhắc kỹ lợi ích và
+      nguy cơ.
+    </p>
+    <br />
+    <p>
+      Theo đúng hướng dẫn điều trị của Bộ Y tế, corticoid KHÔNG được phép dùng
+      cho người bệnh COVID-19 không triệu chứng hoặc triệu chứng mới chỉ ở mức
+      độ nhẹ. Việc chỉ định thuốc này vào phác đồ điều trị COVID-19 phải do bác
+      sĩ quyết định sau khi đã đánh giá hết sức cẩn thận tình trạng của người
+      bệnh.
+    </p>
+    <br />
+    <span> Nguồn: Sức khỏe & Đời sống </span>`,
+  },
+  {
+    date: `26/02/2022`,
+    slug: `nhung-thuc-pham-chua-nhieu-vitamin-c-hon-ca-trai-cam`,
+    title: `Những thực phẩm chứa nhiều vitamin C hơn cả trái cam`,
+    featureImg: VitaminC,
+    excerpt: `TTO - Ca mắc COVID-19 đang tăng nhanh trên cả nước. Ở một số nơi dịch diễn biến phức tạp, vào những thời điểm nhất định, người dân không mua được vitamin C lẫn cam, họ cần làm gì để bổ sung vitamin C?`,
+    content: `           <br />
+    <p>
+      TTO - Ca mắc COVID-19 đang tăng nhanh trên cả nước. Ở một số nơi dịch diễn
+      biến phức tạp, vào những thời điểm nhất định, người dân không mua được
+      vitamin C lẫn cam, họ cần làm gì để bổ sung vitamin C?
+    </p>
+    <br />
+    <div class="image">
+      <img src="${VitaminC}" alt="" />
+      <span
+        >Dứa, xoài, đu đủ, dâu tây đều là những trái cây giàu vitamin và dễ tìm
+        mua - Ảnh: GETTY</span
+      >
+    </div>
+    <br />
+    <p>
+      Bổ sung đầy đủ dinh dưỡng và các loại vitamin, trong đó có vitamin C, là
+      việc cần thiết để tăng cường hệ miễn dịch nhằm ngăn ngừa sự lây lan của
+      COVID-19. Ngoài viên bổ sung vitamin C, nhiều người nghĩ rằng ăn cam hoặc
+      uống nước cam là cách tốt nhất để bổ sung vitamin này và đổ xô đi mua cam,
+      khiến ở một số địa phương trái cây này trở nên khan hiếm và giá lên cao.
+    </p>
+    <br />
+    <p>
+      Trên thực tế, có nhiều thực phẩm khác chứa lượng vitamin C tương tự cam,
+      thậm chí nhiều hơn cả cam (một quả cam nặng 250g trung bình chứa 69,7mg
+      vitamin C).
+    </p>
+    <br />
+    <h2></h2>
+    <p>
+      Súp lơ xanh từ lâu được coi như thực phẩm vàng cho sức khỏe vì hàm lượng
+      dinh dưỡng cao. Trong khoảng 200g bông súp lơ có chứa tới 180mg vitamin C,
+      vượt gấp đôi chỉ số khuyến nghị hằng ngày.
+    </p>
+    <br />
+    <p>
+      Ngoài ra, súp lơ cũng chứa nhiều kẽm, vitamin E, A, B, K… cùng nhiều hoạt
+      chất chống ung thư và hỗ trợ chức năng tim mạch vành.
+    </p>
+    <br />
+    <div class="image">
+      <img src="${VitaminC2}" alt="" />
+      <span>Súp lơ có nhiều vitamin C và các vitamin khác - Ảnh: DaZak.pk</span>
+    </div>
+    <br />
+    <h2>Dâu tây, đu đủ, dứa, xoài</h2>
+    <p>
+      Đây đều là những trái cây dễ tìm mua và giá không hề đắt. Điều quan trọng
+      là đu đủ, dứa, dâu tây đều chứa vitamin C cùng với một loạt chất dinh
+      dưỡng thiết yếu khác. Những loại quả này đều có khoảng 80 - 95mg vitamin
+      C/khẩu phần 100g.
+    </p>
+    <br />
+    <p>
+      Dâu tây còn chứa nhiều folate, giúp thúc đẩy sự hình thành tế bào hồng cầu
+      cần thiết cho quá trình vận chuyển oxy. Trong khi đó đu đủ và xoài giúp
+      thông xoang, sáng da và chắc xương.
+    </p>
+    <br />
+    <p>
+      Dứa còn chứa bromelain, một loại enzym giúp tiêu hóa và giảm đầy hơi.
+      Bromelain cũng hoạt động như một chất chống viêm tự nhiên có thể giúp bạn
+      phục hồi nhanh hơn sau khi ốm dậy.
+    </p>
+    <br />
+    <h2>Các loại ớt</h2>
+    <p>
+      Ở cùng trọng lượng 250g, một trái ớt cung cấp tới 190mg vitamin C - gần
+      gấp ba lần so với một quả cam. Ớt màu xanh và màu vàng chứa ít vitamin C
+      hơn ớt màu đỏ, nhưng ở mức 120mg vitamin C, chúng vẫn cung cấp tới 200%
+      RDA (chỉ số khuyến nghị sức khỏe) của bạn.
+    </p>
+    <br />
+    <p>
+      Ớt cũng là một nguồn cung cấp vitamin A tuyệt vời, giúp tăng cường sức
+      khỏe của mắt, vitamin B6, vitamin E, chất xơ và kali.
+    </p>
+    <br />
+    <div class="image">
+      <img src="${VitaminC3}" alt="" />
+      <span>Tất cả các loại ớt đều chứa lượng vitamin C cao - Ảnh: GETTY</span>
+    </div>
+    <br />
+    <h2>Trái kiwi</h2>
+    <p>
+      Trong một khẩu phần ăn gồm 2 trái kiwi có chứa tới 137mg vitamin C - gần
+      gấp đôi so với một trái cam. Kiwi cũng rất giàu vitamin K, cung cấp 31%
+      RDA của bạn. Cùng với lượng kali, mangan, đồng và chất xơ dồi dào, kiwi là
+      một nguồn chất chống oxy hóa tuyệt vời.
+    </p>
+    <br />
+    <p>
+      Trái cây này cũng không xa lạ với người dân Việt. Các chị em có thể tìm
+      mua trái cây này ở bất cứ siêu thị hay khu chợ nào.
+    </p>
+    <br />
+    <div class="image">
+      <img src="${VitaminC4}" alt="" />
+      <span
+        >Kiwi có thể ăn trực tiếp, dùng làm salad, thức uống dinh dưỡng hoặc sử
+        dụng trong các món bánh tráng miệng - Ảnh: iStock</span
+      >
+    </div>
+    <br />
+    <h2>Cần bao nhiêu vitamin C mỗi ngày?</h2>
+    <p>
+      Theo Viện Y tế quốc gia Hoa Kỳ (NIH), lượng vitamin C được khuyến nghị
+      hằng ngày đối với hầu hết mọi người là 75-90mg một ngày. Giới hạn mức tối
+      đa là 2.000mg/ngày. Nếu vượt qua mức khuyến nghị này có thể ảnh hưởng đến
+      hệ tiêu hóa, gây buồn nôn, tiêu chảy, đau đầu và chóng mặt.
+    </p>
+    <br />
+    <p>
+      Do đó, không phải cứ uống cam, ăn nhiều thực phẩm chứa vitamin C và bổ
+      sung vitamin này càng nhiều càng tốt. Điều quan trọng nhất để tăng cường
+      miễn dịch là chọn nhóm thực phẩm phù hợp từng người, từng thể trạng sức
+      khỏe.
+    </p>
+    <br />
+    <p>
+      Người dân nên tìm hiểu và bổ sung cả kiến thức, không nên đua nhau chạy
+      theo xu hướng mà quên mất rằng có nhiều thực phẩm khác thay thế rất tốt,
+      thậm chí tốt hơn.
+    </p>
+    <br />
+    <span> Nguồn: Tuổi trẻ online </span>`,
+  },
+  {
+    date: `28/02/2022`,
+    slug: `f0-tam-goi-co-khien-benh-tro-nang`,
+    title: `F0 tắm gội có khiến bệnh trở nặng?`,
+    featureImg: F0Shower,
+    excerpt: `Trên một số diễn đàn xuất hiện thông tin cảnh báo F0 phải kiêng tắm gội với lý do tắm gội sẽ khiến bệnh dễ trở nặng. Theo các chuyên gia, F0 kiêng tắm là quan niệm sai lầm...`,
+    content: `           <br />
+    <p>
+      Trên một số diễn đàn xuất hiện thông tin cảnh báo F0 phải kiêng tắm gội
+      với lý do tắm gội sẽ khiến bệnh dễ trở nặng. Theo các chuyên gia, F0 kiêng
+      tắm là quan niệm sai lầm. Người bệnh nên tắm bằng nước ấm vào ban ngày.
+      Tránh tắm gội quá lâu, nhất là vào buổi tối.
+    </p>
+    <br />
+    <div class="video-responsive">
+    <iframe
+      width="560"
+      height="315"
+      src="https://www.youtube.com/embed/SectCU46ftQ"
+      title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen
+  ></iframe>
+    </div>
+    <br />
+    <span> Nguồn: Sức khỏe & đời sống </span>`,
+  },
 ];
-
 
 export default posts;
