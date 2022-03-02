@@ -66,7 +66,7 @@
       }
     }
 
-    .about {
+    .about-left {
       display: flex;
       flex-direction: column;
 
@@ -86,25 +86,31 @@
       }
     }
 
-    .media {
-      padding-left: 85px;
-      
-      p:first-child {
-        font-weight: bold !important;
-      }
-
-      .media-logo {
-        padding-top: 26px;
-        padding-bottom: 34px;
-        display: flex;
-
-        div:first-child {
-          padding-right: 19px;
+    .about-right {
+      .media {
+        padding-left: 95px;
+        
+        p:first-child {
+          font-weight: bold !important;
         }
-      }
-      
-      img {
-        max-width: 171px;
+  
+        .media-group {
+
+  
+          .media-logo {
+            padding-top: 26px;
+            padding-bottom: 34px;
+            display: flex;
+    
+            div:first-child {
+              padding-right: 19px;
+            }
+          }
+        }
+        
+        img {
+          max-width: 171px;
+        }
       }
     }
   }

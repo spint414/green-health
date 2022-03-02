@@ -99,6 +99,7 @@
 
 .home-specialist {
   background-color: $grey3;
+  padding-bottom: 20px;
   .container {
     display: flex;
     flex-direction: column;
@@ -237,6 +238,113 @@
   }
 }
 
+.home-clean {
+  .img {
+    width: 100%;
+    height: 100%;
+    display: flex;
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+
+  .warp-clean {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    .clean-content {
+      padding-left: 130px;
+
+      @include r1200 {
+        padding: 50px 50px
+      }
+
+      @include r480 {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        padding: 20px;
+        margin: auto;
+      }
+
+      h2 {
+        font-size: 40px !important;
+        line-height: 42px !important;
+        color: #ffffff;
+        margin-bottom: 23px !important;
+      }
+      p {
+        max-width: 420px;
+        font-size: 16px !important;
+        line-height: 16.8px !important;
+        color: #ffffff !important;
+      }
+    }
+  }
+}
+
+.home-facility {
+  .ant-row {
+    @include r768 {
+      flex-flow: wrap-reverse
+    }
+  }
+
+  .img {
+    width: 100%;
+    height: 100%;
+    display: flex;
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+
+
+  .warp-facility {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    .facility-content {
+      padding-left: calc((100vw - 1200px) / 2);
+
+      @include r1200 {
+        padding: 50px;
+      }
+
+      @include r480 {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        padding: 20px;
+        margin: auto;
+      }
+
+      h2 {
+        font-size: 40px !important;
+        line-height: 42px !important;
+        color: #ffffff;
+        margin-bottom: 23px !important;
+      }
+      p {
+        max-width: 480px;
+        font-size: 16px !important;
+        line-height: 16.8px !important;
+        color: #ffffff !important;
+      }
+    }
+  }
+}
+
 .home-product {
   padding-top: 60px;
 
@@ -268,71 +376,128 @@
     }
   }
 
-  .warp-product-text {
-    padding: 50px 0px 66px 68px;
+  .ant-col:last-child {
+    width: 100%;
+    height: 100%;
+  }
+  .product-text {
+    width: 100%;
+    height: 100%;
+    .warp-product-text {
+      padding: 50px 0px 66px 68px;
 
-    @include r640 {
-      padding-left: 20px;
-    }
-
-    a {
-      width: 300px;
-      display: block;
-    }
-
-    .title {
-      margin-bottom: 4px !important;
-      color: $white;
-      font-size: 20px !important;
-      line-height: 21px !important;
-    }
-
-    .section {
-      display: flex;
-      margin: 25px 0;
-      align-items: center;
-
-      svg {
-        width: 50px;
-        height: 50px;
+      @include r640 {
+        padding: 20px;
       }
 
-      .text {
-        margin-left: 23px;
+      a {
+        width: 300px;
+        display: flex;
 
-        p:first-child {
-          margin-bottom: 5px !important;
-          font-weight: 700 !important;
-          font-size: 16px !important;
-          line-height: 16.8px !important;
-          color: $white;
-        }
-
-        p:last-child {
-          font-weight: 400 !important;
-          font-size: 12px !important;
-          line-height: 12.6px !important;
-          color: $white;
-          max-width: 406px;
+        @include r480 {
+          margin: auto;
         }
       }
+
+      .title {
+        margin-bottom: 4px !important;
+        color: $white;
+        font-size: 20px !important;
+        line-height: 21px !important;
+      }
+
+      .section {
+        display: flex;
+        margin: 25px 0;
+        align-items: center;
+
+        svg {
+          width: 50px;
+          height: 50px;
+        }
+
+        .text {
+          margin-left: 23px;
+
+          p:first-child {
+            margin-bottom: 5px !important;
+            font-weight: 700 !important;
+            font-size: 16px !important;
+            line-height: 16.8px !important;
+            color: $white;
+          }
+
+          p:last-child {
+            font-weight: 400 !important;
+            font-size: 12px !important;
+            line-height: 12.6px !important;
+            color: $white;
+            max-width: 406px;
+          }
+        }
+      }
+
+      .ant-btn {
+        span {
+          color: #14613c;
+          font-weight: 600;
+          font-size: 20px;
+        }
+        border-radius: 99999px;
+        height: 60px;
+        width: 300px;
+        background-color: #ffe665;
+        border: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 3px 4px 8px rgba(0, 0, 0, 0.25);
+      }
+    }
+  }
+}
+
+.home-certification {
+  h2 {
+    text-align: center;
+    color: $black;
+    font-size: 45px;
+    line-height: 47.25px !important;
+    padding-top: 80px;
+    padding-bottom: 10px;
+    margin-bottom: 46px;
+  }
+
+  .hl {
+    margin: auto;
+    margin-bottom: 46px;
+    width: 124px;
+    height: 5px;
+    background-color: #8cc640;
+  }
+
+  .certification-group {
+    padding-bottom: 68px;
+
+    .ant-row {
+      @include r1200 {
+        justify-content: center;
+      }
     }
 
-    .ant-btn {
-      span {
-        color: #14613c;
-        font-weight: 600;
-        font-size: 20px;
+    img {
+      height: auto;
+      @include r768 {
+        height: 250px;
       }
-      border-radius: 99999px;
-      height: 60px;
-      width: 300px;
-      background-color: #ffe665;
-      border: none;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      box-shadow: 3px 4px 8px rgba(0, 0, 0, 0.25);
+    }
+
+    .CNYT {
+      max-width: 720.22px;
+    }
+
+    .CNQT {
+      max-width: 362px;
     }
   }
 }
@@ -359,33 +524,30 @@
 
   .partner-group {
     padding-bottom: 100px;
-    // @include r768 {
-    //   flex-flow: row wrap;
-    //   justify-content: space-around;
-    // }
 
     .ant-row {
-      justify-content: space-between;
-
       @include r1200 {
         justify-content: center;
       }
     }
 
-    .logoAV {
-      max-width: 318px;
+    img {
+      height: auto;
+      @include r768 {
+        height: 100px;
+      }
     }
 
-    .logoVD {
-      max-width: 156px;
+    .BVHN {
+      max-width: 228px;
     }
 
-    .logoLVFH {
-      max-width: 140px;
+    .BVQD {
+      max-width: 142px;
     }
 
-    .logoMD {
-      max-width: 306px;
+    .BVDA {
+      max-width: 165px;
     }
   }
 }

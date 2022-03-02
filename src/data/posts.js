@@ -15,6 +15,7 @@ import {
   VitaminC3,
   VitaminC4,
   F0Shower,
+  F0Soup,
 } from "./img";
 
 const posts = [
@@ -963,7 +964,7 @@ const posts = [
     title: `Sáng 24/2: Số ca COVID-19 mới trung bình 7 ngày qua là 47.264 F0/ngày; 25 tỉnh, thành có F0 mới trên 1.000 ca`,
     featureImg: TrungBinh7Ngay,
     excerpt: `
-    SKĐS - Bộ Y tế cho biết, trong số các bệnh nhân COVID-19 đang điều trị hiện có hơn 3.200 F0 nặng; Số ca COVID-19 mới trung bình 7 ngày qua là 47.264 F0/ngày; 25 tỉnh, thành có F0 mới trên 1.000 ca/ ngày.`,
+    SKĐS - Bộ Y tế cho biết, trong số các bệnh nhân COVID-19 đang điều trị hiện có hơn 3.200 F0 nặng; Số ca COVID-19 mới trung bình 7 ngày qua là 47.264 F0/ngày;....`,
     content: `
     <br />
     <p>
@@ -1438,7 +1439,7 @@ const posts = [
     slug: `nhung-thuc-pham-chua-nhieu-vitamin-c-hon-ca-trai-cam`,
     title: `Những thực phẩm chứa nhiều vitamin C hơn cả trái cam`,
     featureImg: VitaminC,
-    excerpt: `TTO - Ca mắc COVID-19 đang tăng nhanh trên cả nước. Ở một số nơi dịch diễn biến phức tạp, vào những thời điểm nhất định, người dân không mua được vitamin C lẫn cam, họ cần làm gì để bổ sung vitamin C?`,
+    excerpt: `TTO - Ca mắc COVID-19 đang tăng nhanh trên cả nước. Ở một số nơi dịch diễn biến phức tạp, vào những thời điểm nhất định, người dân không mua được vitamin C lẫn cam,...`,
     content: `           <br />
     <p>
       TTO - Ca mắc COVID-19 đang tăng nhanh trên cả nước. Ở một số nơi dịch diễn
@@ -1594,6 +1595,114 @@ const posts = [
     </div>
     <br />
     <span> Nguồn: Sức khỏe & đời sống </span>`,
+  },
+  {
+    date: `02/03/2022`,
+    slug: `f0-nen-an-chao-gi-khi-ho-sot`,
+    title: `F0 nên ăn cháo gì khi ho sốt?`,
+    featureImg: F0Soup,
+    excerpt: `Nấu cháo cùng tía tô, hành, bí đỏ, đậu xanh,... vừa dễ ăn, thơm, ngon, nhiều dinh dưỡng có tác dụng giải cảm, phù hợp người ho, sốt, mệt mỏi. Thời tiết thay đổi nhiệt độ kèm mắc Covid-19 khiến nhiều người ho, sốt, viêm tiểu phế quản, viêm phổi, nhiễm lạnh trầm trọng hơn,...`,
+    content: `              <br />
+    <p>
+      Nấu cháo cùng tía tô, hành, bí đỏ, đậu xanh,... vừa dễ ăn, thơm, ngon,
+      nhiều dinh dưỡng có tác dụng giải cảm, phù hợp người ho, sốt, mệt mỏi.
+      Thời tiết thay đổi nhiệt độ kèm mắc Covid-19 khiến nhiều người ho, sốt,
+      viêm tiểu phế quản, viêm phổi, nhiễm lạnh trầm trọng hơn, nhất là người
+      già, trẻ em, người sức đề kháng kém. Lương y Bùi Đắc Sáng (Viện Hàn lâm
+      Khoa học và Công nghệ) hướng dẫn một số món ăn từ cháo tăng đề kháng, giải
+      cảm hiệu quả.
+    </p>
+    <br />
+    <h2>Cháo hành, tía tô, trứng</h2>
+    <p>
+      Cháo tía tô kết hợp với trứng gà ta, hành hoa là món ăn phổ biến. Lá tía
+      tô có tính ấm, vị cay có khả năng chữa ho, cảm cúm, sốt, tăng đề kháng.
+    </p>
+    <br />
+    <p>
+      Bạn chuẩn bị 100 g gạo; một quả trứng gà ta; một củ gừng tươi; 5-10 g hành
+      khô; một nắm lá tía tô tươi; 3-5 nhánh hành hoa; hạt tiêu, gia vị...vừa
+      đủ.
+    </p>
+    <br />
+    <p>
+      Lá tía tô và hành hoa rửa sạch rồi thái nhỏ, gừng thái sợ chỉ, hành khô
+      dạp rồi băm nhỏ. Cho gạo vào nồi nấu thành cháo chín nhừ. Sau đó, bạn lấy
+      lòng đỏ trứng gà cho vào bát cháo nóng rồi đánh lên. Cuối cùng là cho các
+      gia vị lá tía tô, gừng, hành hoa vào nấu cùng, nếm gia vị vừa đủ..
+    </p>
+    <br />
+    <p>
+      Nên ăn cháo khi còn nóng để cơ thể toát mồ hôi. Sau đó dùng khăn mềm lau
+      mồ hôi tránh để cho gió lạnh nhiễm vào người.
+    </p>
+    <br />
+    <div class="image">
+      <img src="${F0Soup}" alt="" />
+    </div>
+    <br />
+    <h2>Cháo gà</h2>
+    <p>
+      Trong thịt gà chứa rất nhiều đạm, amino axit nhằm tăng sức đề kháng cho cơ
+      thể, giúp chống viêm nhiễm. Khi bị cảm cúm nấu cháo gà để ăn sẽ giúp người
+      bệnh không bị đau rát cổ họng, cơ thể cảm thấy dễ chịu hơn.
+    </p>
+    <br />
+    <p>
+      Chuẩn bị 100g thịt gà nạc; một nắm gạo tẻ; hành ngò, gia vị vừa đủ. Lấy
+      gạo vo sạch rồi nấu thành cháo chín nhừ. Sau đó mang thịt gà rửa sạch, băm
+      nhỏ rồi xào sơ với các gia vị. Cuối cùng là cho thịt gà vào cháo, băm một
+      tí hành ngò và hạt tiêu vào bát cháo để giúp giải cảm tốt hơn. Nên ăn cháo
+      gà khi còn nóng.
+    </p>
+    <br />
+    <h2>Cháo bí đỏ</h2>
+    <p>
+      Trong bí đỏ chứa rất nhiều vitamin, các khoáng chất cần thiết cho cơ thể,
+      giúp tăng sức đề kháng, trị ho, tiêu đờm, là thực phẩm nên ăn mỗi khi bị
+      cảm cúm.
+    </p>
+    <br />
+    <p>
+      Chuẩn bị 100g bí đỏ; một nắm gạo tẻ. Gọt vỏ miếng bí đỏ, bỏ hạt rồi rửa
+      sạch và cắt miếng mỏng cho vào nồi nấu. Sau đó vo nắm gạo tẻ cho vào nồi
+      bí đang nấu. Nấu sôi và cho thêm nước đến khi cả gạo và bí chín nhừ. Nên
+      dùng cháo khi còn nóng để tăng tác dụng giải cảm cho người bệnh.
+    </p>
+    <br />
+    <h2>Cháo đậu xanh</h2>
+    <p>
+      Trong đậu xanh có chứa nhiều protein và các axit amin tốt cho dạ dày. Ăn
+      cháo đậu xanh để giúp kích hoạt các tế bào lympho sản xuất kháng thể gây
+      hại cho cơ thể, giúp chống viêm, hạ sốt, tiêu độc.
+    </p>
+    <br />
+    <p>
+      Chuẩn bị 1/3 lon đậu xanh; một nắm gạo tẻ. Bạn nên ngâm đậu xanh vào nước
+      trước khi nấu khoảng một giờ rồi cho vào nồi cùng gạo đã được vo sạch và
+      nấu cho đến khi cả đậu xanh và gạo chín nhừ. Thêm gia vị vừa đủ là có thể
+      dùng. Nên ăn khi cháo còn nóng, tích cực ăn cháo đậu xanh trong vòng 2-3
+      ngày sẽ làm giảm triệu chứng cảm cúm, hạ sốt.
+    </p>
+    <br />
+    <p>
+      Trường hợp <b>kém ăn, mệt mỏi và có cảm giác nhanh no</b>, người bệnh nên
+      chia nhỏ bữa ăn trong ngày. Ví dụ, người trưởng thành thường ăn 3 bữa một
+      ngày thì sau khỏi Covid nên chia nhỏ 4-6 bữa một ngày. Khi ăn tốt hơn thì
+      giảm số bữa xuống và tăng lượng thức ăn trong mỗi lần, với mức năng lượng
+      tăng thêm khoảng 400-500 kcal một ngày so với trước. Lượng protein cung
+      cấp cho cơ thể cũng cần tăng khoảng 75-100 g một ngày.
+    </p>
+    <br />
+    <p>
+      Tăng cường kết hợp hồi phục dinh dưỡng với luyện tập và phục hồi chức năng
+      theo hướng dẫn của chuyên gia. Bệnh nhân cũng cần ngủ đủ giấc, ngủ nhiều
+      hơn bình thường và cố gắng đi ngủ đúng giờ. Nếu có bệnh lý nền, nên tham
+      khảo ý kiến bác sĩ để kết hợp hướng dẫn dinh dưỡng của bệnh lý nền với
+      tình trạng hiện tại sao cho phù hợp nhất.
+    </p>
+    <br />
+    <span> Nguồn: vnexpress.net </span>`,
   },
 ];
 

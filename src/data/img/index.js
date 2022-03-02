@@ -23,6 +23,7 @@ import VitaminC2 from "./VitaminC2.jpg"
 import VitaminC3 from "./VitaminC4.jpg"
 import VitaminC4 from "./VitaminC4.jpg"
 import F0Shower from "./F0Shower.jpg"
+import F0Soup from "./F0Soup.jpg"
 
 
 
@@ -53,5 +54,6 @@ export {
   VitaminC2,
   VitaminC3,
   VitaminC4,
-  F0Shower
+  F0Shower,
+  F0Soup
 };

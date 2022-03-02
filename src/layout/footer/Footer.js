@@ -46,7 +46,7 @@ const Footer = () => {
             </Col>
             <Col sm={24} lg={12}>
               <div className="contact">
-                <div className="about">
+                <div className="about-left">
                   <p>Về chúng tôi</p>
                   <ul>
                     <li>
@@ -55,7 +55,7 @@ const Footer = () => {
                       </span>
                     </li>
                     <li>
-                      <span>Sản phẩm</span>
+                      <Link to={paths.san_pham}>Sản phẩm</Link>
                     </li>
                     <li>
                       <span>
@@ -75,20 +75,24 @@ const Footer = () => {
                   </ul>
                 </div>
 
-                <div className="media">
-                  <p>Kênh truyền thông</p>
-                  <div className="media-logo">
-                    <div>
-                      <a href="https://www.facebook.com/GreenHealthSJC">
-                        <Facebook />
-                      </a>
+                <div className="about-right">
+                  <div className="media">
+                    <p>Kênh truyền thông</p>
+                    <div className="media-group">
+                      <div className="media-logo">
+                        <div>
+                          <a href="https://www.facebook.com/GreenHealthSJC">
+                            <Facebook />
+                          </a>
+                        </div>
+                        <div>
+                          <Youtube />
+                        </div>
+                      </div>
+                      <div>
+                        <img src={BoCT} alt="" />
+                      </div>
                     </div>
-                    <div>
-                      <Youtube />
-                    </div>
-                  </div>
-                  <div>
-                    <img src={BoCT} alt="" />
                   </div>
                 </div>
               </div>

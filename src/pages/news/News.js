@@ -65,7 +65,7 @@ const News = () => {
         </div>
 
         <div className={news["right-col"]}>
-          {posts.slice(6, 10).map((post) => (
+          {posts.slice(6, 11).map((post) => (
             <CompMd post={post} history={history} />
           ))}
         </div>

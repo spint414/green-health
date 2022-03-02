@@ -1,10 +1,9 @@
 import "./style.scss";
 import React, { useRef } from "react";
 import {
-  LogoAV,
-  LogoLVFH,
-  LogoMD,
-  LogoVD,
+  BVQD,
+  BVHN,
+  BVDA,
   HomeContact,
   Spoon,
   Jar,
@@ -14,13 +13,12 @@ import {
   GreenMealBox,
   ProductBG,
   ProductBGHalf,
-  // Bud,
-  // CNQT,
-  // CNYT,
-  // GreenBG,
-  // GreenBG2,
-  // GreenBG3,
-  // Production
+  Bud,
+  CNQT,
+  CNYT,
+  GreenBG2,
+  GreenBG3,
+  Production,
 } from "../../assets/img/index";
 import {
   Decoration,
@@ -261,6 +259,71 @@ const Home = () => {
         </div>
       </div>
 
+      <div className="home-clean">
+        <Row>
+          <Col sm={24} md={12}>
+            <div className="img">
+              <img src={Bud} alt="" />
+            </div>
+          </Col>
+          <Col sm={24} md={12}>
+            <div
+              className="warp-clean"
+              style={{
+                backgroundImage: "url(" + GreenBG2 + ")",
+                backgroundSize: "cover",
+                backgroundPosition: "center",
+                backgroundRepeat: "no-repeat",
+              }}
+            >
+              <div className="clean-content">
+                <Link to={paths.duoc_lieu}>
+                  <h2>Vùng dược liệu sạch</h2>
+                </Link>
+                <p>
+                  Hiểu được tầm quan trọng của dược liệu tới hiệu quả và dược
+                  tính của mỗi sản phẩm, toàn bộ các sản phẩm của Green Health
+                  đều sử dụng nguồn dược liệu được nuôi trồng, thu hái theo
+                  những tiêu chuẩn khắt khe nhất.
+                </p>
+              </div>
+            </div>
+          </Col>
+        </Row>
+      </div>
+
+      <div className="home-facility">
+        <Row>
+          <Col sm={24} md={12}>
+            <div
+              className="warp-facility"
+              style={{
+                backgroundImage: "url(" + GreenBG3 + ")",
+                backgroundSize: "cover",
+                backgroundPosition: "center",
+                backgroundRepeat: "no-repeat",
+              }}
+            >
+              <div className="facility-content">
+                <h2>Dây chuyền hiện đại</h2>
+                <p>
+                  Green Health ứng dụng các công nghệ điều chế, chiết xuất mới
+                  nhất, giúp quá trình sản xuất sản phẩm được đảm bảo về thời
+                  gian xử lý cũng như chất lượng đầu ra nhanh chóng, tối ưu.
+                  Chúng tôi tự hào và cam kết về chất lượng trao tới tay khách
+                  hàng doanh nghiệp cũng như từng cá nhân.
+                </p>
+              </div>
+            </div>
+          </Col>
+          <Col sm={24} md={12}>
+            <div className="img">
+              <img src={Production} alt="" />
+            </div>
+          </Col>
+        </Row>
+      </div>
+
       <div className="home-product">
         <h2>Sản phẩm của chúng tôi</h2>
         <div className="hl"></div>
@@ -335,26 +398,36 @@ const Home = () => {
         </div>
       </div>
 
+      <div className="home-certification">
+        <h2>Chứng nhận của chúng tôi</h2>
+        <div className="hl"></div>
+        <div className="certification-group">
+          <Row justify="center" gutter={[90, 30]}>
+            <Col>
+              <img className="CNYT" src={CNYT} alt="" />
+            </Col>
+            <Col>
+              <img className="CNQT" src={CNQT} alt="" />
+            </Col>
+          </Row>
+        </div>
+      </div>
+
       <div className="home-partner">
-        <div className="container">
-          <h2>Đối tác của chúng tôi</h2>
-          <div className="hl"></div>
-          <div className="partner-group">
-            <Row gutter={[40, 30]}>
-              <Col>
-                <img className="logoAV" src={LogoAV} alt="" />
-              </Col>
-              <Col>
-                <img className="logoVD" src={LogoVD} alt="" />
-              </Col>
-              <Col>
-                <img className="logoLVFH" src={LogoLVFH} alt="" />
-              </Col>
-              <Col>
-                <img className="logoMD" src={LogoMD} alt="" />
-              </Col>
-            </Row>
-          </div>
+        <h2>Đối tác của chúng tôi</h2>
+        <div className="hl"></div>
+        <div className="partner-group">
+          <Row justify="center" gutter={[100, 30]}>
+            <Col>
+              <img className="BVHN" src={BVHN} alt="" />
+            </Col>
+            <Col>
+              <img className="BVQD" src={BVQD} alt="" />
+            </Col>
+            <Col>
+              <img className="BVDA" src={BVDA} alt="" />
+            </Col>
+          </Row>
         </div>
       </div>
 
@@ -406,7 +479,7 @@ const Home = () => {
             </Form.Item>
 
             {/* <Form.Item htmlFor="submit"> */}
-              <Button>Gửi ngay</Button>
+            <Button>Gửi ngay</Button>
             {/* </Form.Item> */}
           </Form>
         </div>

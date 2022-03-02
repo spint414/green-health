@@ -1,8 +1,7 @@
 import NavBanner from "./NavBanner.png";
-import LogoAV from "./LogoAV.png";
-import LogoLVFH from "./LogoLVFH.png";
-import LogoMD from "./LogoMD.png";
-import LogoVD from "./LogoVD.png";
+import BVDA from "./BVDA.png";
+import BVHN from "./BVHN.png";
+import BVQD from "./BVQD.png";
 import HomeContact from "./HomeContact.jpg";
 import Spoon from "./Spoon.png";
 import Jar from "./Jar.png";
@@ -36,10 +35,9 @@ import ProductGM from "./ProductGM.png";
 
 export {
     NavBanner,
-    LogoAV,
-    LogoLVFH,
-    LogoMD,
-    LogoVD,
+    BVDA,
+    BVHN,
+    BVQD,
     HomeContact,
     Spoon,
     Jar,
