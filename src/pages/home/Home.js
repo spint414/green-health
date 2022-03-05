@@ -16,8 +16,8 @@ import {
   Bud,
   CNQT,
   CNYT,
+  GreenBG,
   GreenBG2,
-  GreenBG3,
   Production,
 } from "../../assets/img/index";
 import {
@@ -78,6 +78,19 @@ const Home = () => {
           infinite: true,
           speed: 500,
           slidesToShow: 2,
+          slidesToScroll: 1,
+          autoplay: true,
+          autoplaySpeed: 5000,
+        },
+      },
+      {
+        breakpoint: 640,
+        settings: {
+          arrows: false,
+          dots: false,
+          infinite: true,
+          speed: 500,
+          slidesToShow: 1,
           slidesToScroll: 1,
           autoplay: true,
           autoplaySpeed: 5000,
@@ -270,7 +283,7 @@ const Home = () => {
             <div
               className="warp-clean"
               style={{
-                backgroundImage: "url(" + GreenBG2 + ")",
+                backgroundImage: "url(" + GreenBG + ")",
                 backgroundSize: "cover",
                 backgroundPosition: "center",
                 backgroundRepeat: "no-repeat",
@@ -298,7 +311,7 @@ const Home = () => {
             <div
               className="warp-facility"
               style={{
-                backgroundImage: "url(" + GreenBG3 + ")",
+                backgroundImage: "url(" + GreenBG2 + ")",
                 backgroundSize: "cover",
                 backgroundPosition: "center",
                 backgroundRepeat: "no-repeat",
@@ -417,7 +430,7 @@ const Home = () => {
         <h2>Đối tác của chúng tôi</h2>
         <div className="hl"></div>
         <div className="partner-group">
-          <Row justify="center" gutter={[100, 30]}>
+          <Row justify="center">
             <Col>
               <img className="BVHN" src={BVHN} alt="" />
             </Col>

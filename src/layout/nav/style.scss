@@ -1,98 +1,197 @@
 @import "../../assets/scss/mixin.scss";
 
-.nav {
-  .warp-nav-top {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 30px 0;
-    svg {
-      max-width: 300px;
-      @include r480() {
-        width: 200px;
-      }
+.warp-nav-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 0;
+  svg {
+    max-width: 300px;
+    @include r480() {
+      width: 200px;
     }
-    ul {
+  }
+  ul {
+    display: flex;
+    margin-bottom: 0;
+    column-gap: 93px;
+    @include r1024() {
+      display: none !important;
+    }
+    li {
+      position: relative;
+      font-weight: 600;
       display: flex;
-      margin-bottom: 0;
-      column-gap: 93px;
-      @include r1024() {
-        display: none !important;
+      justify-content: space-between;
+      align-items: center;
+      column-gap: 12px;
+      font-size: 18px;
+      svg {
+        max-width: 20px;
       }
-      li {
-        position: relative;
-        font-weight: 600;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        column-gap: 12px;
-        font-size: 18px;
-        svg {
-          max-width: 20px;
-        }
-        span {
-          color: $black;
-        }
-        .ant-input-prefix {
-          margin-right: 20px;
-        }
-        .ant-input-affix-wrapper {
-          border: none !important;
+      span {
+        color: $black;
+      }
+      .ant-input-prefix {
+        margin-right: 20px;
+      }
+      .ant-input-affix-wrapper {
+        border: none !important;
+        background-color: $grey2;
+        border-radius: 100px;
+        height: 46px;
+        input {
           background-color: $grey2;
-          border-radius: 100px;
-          height: 46px;
-          input {
-            background-color: $grey2;
-            width: 218px;
-          }
+          width: 218px;
         }
       }
     }
   }
-  .navlinks {
-    max-width: 100%;
-    padding-left: calc(50vw - 428px);
-    padding-right: calc(50vw - 428px);
+}
+.navlinks {
+  max-width: 100%;
+  padding-left: calc(50vw - 428px);
+  padding-right: calc(50vw - 428px);
 
-    .warp-nav-bottom {
-      ul {
-        padding: 0;
-        margin: 0;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        .active {
-          font-weight: bold;
+  .warp-nav-bottom {
+    ul {
+      padding: 0;
+      margin: 0;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      .active {
+        font-weight: bold;
+      }
+
+      li {
+        //   &:nth-child(1):hover {
+        //       background-color: transparent;
+        //     }
+        position: relative;
+        @include r1024() {
+          display: none;
         }
-
-        li {
-          //   &:nth-child(1):hover {
-          //       background-color: transparent;
-          //     }
-          position: relative;
-          @include r1024() {
-            display: none;
-          }
-          display: inline-block;
-          margin: 30px 10px;
-          a {
-            font-size: 20px !important;
-            line-height: 21px;
-            width: 100%;
-            display: flex;
-            color: $white !important;
-            svg {
-              path {
-                fill: $white;
-              }
+        display: inline-block;
+        margin: 30px 10px;
+        a {
+          font-size: 20px !important;
+          line-height: 21px;
+          width: 100%;
+          display: flex;
+          color: $white !important;
+          svg {
+            path {
+              fill: $white;
             }
           }
         }
-        .vl {
-          border-left: 1px solid $white;
-          height: 21px;
+      }
+      .vl {
+        border-left: 1px solid $white;
+        height: 21px;
+      }
+    }
+  }
+}
+
+.anticon-align-right {
+  display: none !important;
+  @include r1024() {
+    display: block !important;
+
+    svg {
+      width: 30px !important;
+      height: 30px !important;
+      path {
+        color: #8bc53f;
+      }
+    }
+  }
+}
+
+.menu-collapse {
+  .ant-drawer-content-wrapper {
+    width: 100% !important;
+    max-width: 276px;
+  }
+  .ul {
+    padding: 24px !important;
+    display: flex;
+    margin-bottom: 0;
+    flex-direction: column;
+
+    li {
+      position: relative;
+      font-weight: 700;
+      display: flex;
+      align-items: center;
+      column-gap: 10px;
+      font-size: 16.67px;
+
+      .icon {
+        width: 24px;
+        height: 24px;
+        border-radius: 100px;
+        background-color: #009345;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        svg {
+          width: 16.8px;
+          height: auto;
         }
       }
+    }
+
+    a:after {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      content: "";
+      height: 1px;
+      width: 28px;
+      background-color: $green1;
+      transition: 0.5s ease-in width;
+    }
+  }
+  .anticon-close {
+    position: absolute;
+    right: 0;
+    cursor: pointer;
+    path {
+      color: $green1 !important;
+    }
+  }
+  .ant-drawer-body {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 0 !important;
+    .tintucnavm {
+      flex-direction: column;
+      align-items: flex-start;
+      ul {
+        padding-left: 20px;
+        li {
+          padding: 0 !important;
+          margin: 0 !important;
+          border: none !important;
+        }
+      }
+    }
+  }
+  a {
+    position: relative;
+    font-size: 16.67px !important;
+    font-weight: 600;
+    color: $black !important;
+    padding: 12px 0;
+  }
+  .active {
+    a:after {
+      width: 100%;
     }
   }
 }

@@ -10,7 +10,7 @@ import {
   Zalo,
 } from "../../assets/svg/index";
 import { FooterBanner, BoCT } from "../../assets/img/index";
-import { Col, Row } from "antd";
+import { Col, Row, Input, Button } from "antd";
 import { Link } from "react-router-dom";
 import { paths } from "../../constant";
 
@@ -34,20 +34,22 @@ const Footer = () => {
                   <LogoGH2 />
                 </div>
                 <p>Công ty cổ phần green health vietnam</p>
-                <div className="company-text">
-                  <Grey />
-                  <span>Lô 22 - Số 35 Lê Văn Thiêm, Thanh Xuân, Hà Nội</span>
-                </div>
-                <div className="company-text">
-                  <Grey />
-                  <span>0968876850</span>
+                <div className="company-info">
+                  <div className="company-text">
+                    <Grey />
+                    <span>Lô 22 - Số 35 Lê Văn Thiêm, Thanh Xuân, Hà Nội</span>
+                  </div>
+                  <div className="company-text">
+                    <Grey />
+                    <span>0968876850</span>
+                  </div>
                 </div>
               </div>
             </Col>
             <Col sm={24} lg={12}>
               <div className="contact">
                 <div className="about-left">
-                  <p>Về chúng tôi</p>
+                  <p className="line">Về chúng tôi</p>
                   <ul>
                     <li>
                       <span>
@@ -76,22 +78,39 @@ const Footer = () => {
                 </div>
 
                 <div className="about-right">
-                  <div className="media">
-                    <p>Kênh truyền thông</p>
-                    <div className="media-group">
-                      <div className="media-logo">
-                        <div>
-                          <a href="https://www.facebook.com/GreenHealthSJC">
-                            <Facebook />
-                          </a>
-                        </div>
-                        <div>
-                          <Youtube />
-                        </div>
+                  <p>Theo dõi tin tức và sản phẩm mới nhất</p>
+                  <div className="input-group">
+                    <Input.Group compact>
+                      <Input
+                        style={{
+                          width: "60%",
+                          height: "40px",
+                          fontSize: "16px",
+                        }}
+                        placeholder="Địa chỉ email"
+                      />
+                      <Button
+                        type="primary"
+                        style={{ width: "40%", height: "38px" }}
+                      >
+                        ĐĂNG KÝ
+                      </Button>
+                    </Input.Group>
+                  </div>
+                  <p className="line">Kênh truyền thông</p>
+                  <div className="media-group">
+                    <div className="media-logo">
+                      <div>
+                        <a href="https://www.facebook.com/GreenHealthSJC">
+                          <Facebook />
+                        </a>
                       </div>
                       <div>
-                        <img src={BoCT} alt="" />
+                        <Youtube />
                       </div>
+                    </div>
+                    <div>
+                      <img src={BoCT} alt="" />
                     </div>
                   </div>
                 </div>

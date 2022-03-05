@@ -65,7 +65,6 @@ const Contact = () => {
                 <Phone />
                 <span>Hotline</span>
               </Row>
-
               <p>0968876850</p>
             </div>
 

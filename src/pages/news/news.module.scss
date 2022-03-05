@@ -247,10 +247,28 @@
     }
 
     .left-col {
+
+
       @include responsive_lg() {
-        margin-right: 50px;
         padding-right: 50px;
         border-right: 1px solid #c5c5c5;
+      }
+    }
+
+    .right-col {
+      margin-top: $gap;
+      padding-top: $gap;
+      border-top: 1px solid #c5c5c5;
+
+      @include responsive_sm() {
+        margin-top: calc(#{$gap} + 15px);
+      }
+
+      @include responsive_lg() {
+        padding-left: 50px;
+        margin-top: 0;
+        padding-top: 0;
+        border-top: none;
       }
     }
 
