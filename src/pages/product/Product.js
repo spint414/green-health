@@ -25,13 +25,19 @@ import {
 import { Col, Row, Button, Form, Input } from "antd";
 import "slick-carousel/slick/slick.css";
 
-
 const Product = () => {
   return (
     <section className="Product">
-      <div className="product-banner">
-        <img src={Jar} alt="" />
-      </div>
+      <div
+        className="product-banner"
+        style={{
+          backgroundImage: "url(" + Jar + ")",
+          backgroundSize: "cover",
+          backgroundPosition: "center top",
+          backgroundRepeat: "no-repeat",
+          height: "600px",
+        }}
+      ></div>
 
       <div className="product-target">
         <Row>
@@ -131,7 +137,7 @@ const Product = () => {
                       chỉ có thể quan sát dưới kính hiển vi do tảo được cấu tạo
                       từ nhiều đơn bào. Chúng có tác dụng hỗ trợ, tăng cường
                       miễn dịch và điều trị bệnh lý. Đặc biệt khả năng chống oxy
-                      cực kỳ cao.
+                      hóa cực kỳ cao.
                     </p>
                   </div>
                   <div className="right">
@@ -213,11 +219,11 @@ const Product = () => {
                   <div className="row">
                     <div className="medical">
                       <img src={SuaBot} alt="" />
-                      <h4>Sửa bột nguyên kem</h4>
+                      <h4>Sữa bột nguyên kem</h4>
                     </div>
                     <div className="medical">
                       <img src={DamWhey80} alt="" />
-                      <h4>Đạm Whey80%</h4>
+                      <h4>Đạm Whey 80%</h4>
                     </div>
                     <div className="medical">
                       <img src={DuongThotNot} alt="" />
@@ -239,7 +245,7 @@ const Product = () => {
             <Col>
               <div className="certification-text">
                 <p>
-                  Chúng tôi tự hào mang đến kháng hàng sản phẩm dinh dưỡng đạt
+                  Chúng tôi tự hào mang đến khách hàng sản phẩm dinh dưỡng đạt
                   chuẩn yêu cầu, đã được cấp:
                 </p>
                 <ul>
@@ -258,7 +264,7 @@ const Product = () => {
       </div>
 
       <div className="product-customer">
-        <h2>Khác hàng của chúng tôi</h2>
+        <h2>Khách hàng của chúng tôi</h2>
         <div className="hl"></div>
 
         <div className="card-group">
@@ -296,7 +302,7 @@ const Product = () => {
           </div>
           <div className="card">
             <div className="img-card">
-              <img src={Customer} alt="" />
+              <img className="Customer2" src={Customer2} alt="" />
               <div className="header">
                 <h2 className="name">Nguyễn Mai Thảo</h2>
                 <span className="des">37 tuổi</span>
@@ -324,7 +330,7 @@ const Product = () => {
           }}
         ></div>
         <div className="form-content">
-          <h2>Lorem ipsum dolor sit<br /> amet, consectetur</h2>
+          <h2>LIÊN HỆ VỚI CHÚNG TÔI</h2>
 
           <Form>
             <Form.Item

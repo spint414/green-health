@@ -4,7 +4,7 @@ import BVHN from "./BVHN.png";
 import BVQD from "./BVQD.png";
 import HomeContact from "./HomeContact.jpg";
 import Spoon from "./Spoon.png";
-import Jar from "./Jar.png";
+import Jar from "./Jar.jpg";
 import BannerGreenmeal from "./BannerGreenmeal.png";
 import HomeDN from "./HomeDN.png";
 import HomeDN2 from "./HomeDN2.png";

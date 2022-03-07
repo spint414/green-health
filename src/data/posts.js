@@ -1156,7 +1156,7 @@ const posts = [
     slug: `mac-covid19-can-kieng-cu-gi`,
     title: `Mắc COVID-19 cần kiêng cữ gì?`,
     featureImg: KiengCovid,
-    excerpt: `SKĐS- Số người nhiễm SARS-CoV-2 tăng cao, rất nhiều F0 hiện đang điều trị tại nhà. Người nhà cũng như F0 đều lo lắng. Một trong những câu hỏi thường gặp là: Người mắc COVID-19 cần kiêng cữ gì khi điều trị tại nhà?`,
+    excerpt: `SKĐS- Số người nhiễm SARS-CoV-2 tăng cao, rất nhiều F0 hiện đang điều trị tại nhà. Người nhà cũng như F0 đều lo lắng. Một trong những câu hỏi thường gặp là: Người mắc COVID-19 cần kiêng cữ...`,
     content: `    <br />
     <p>
       <b

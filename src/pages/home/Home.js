@@ -202,9 +202,19 @@ const Home = () => {
 
   return (
     <section className="Home">
-      <div className="home-banner">
+      {/* <div className="home-banner">
         <img src={Jar} alt="" />
-      </div>
+      </div> */}
+      <div
+        className="home-banner"
+        style={{
+          backgroundImage: "url(" + Jar + ")",
+          backgroundSize: "cover",
+          backgroundPosition: "center top",
+          backgroundRepeat: "no-repeat",
+          height: "720px",
+        }}
+      ></div>
       <div className="home-introduction">
         <div className="container">
           <h2>Giới thiệu chung về Green Health</h2>
@@ -224,7 +234,7 @@ const Home = () => {
                   sóc sức khỏe được tạo ra từ tinh hoa dược liệu Việt Nam kết
                   hợp với công nghệ sản xuất đạt chuẩn thế giới. Green health
                   mong muốn mang đến những chế độ dinh dưỡng phù hợp nhất giúp
-                  khách hàng chăm sóc sức khỏe ngay khi cơ thể bình thường. để
+                  khách hàng chăm sóc sức khỏe ngay khi cơ thể bình thường để
                   đẩy lùi bệnh tật hết mức có thể.
                 </p>
                 <div className="button">

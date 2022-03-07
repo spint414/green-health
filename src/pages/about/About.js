@@ -1,11 +1,5 @@
 import "./style.scss";
-import {
-  AboutBanner,
-  People,
-  Vip,
-  Vip2,
-  Vip3,
-} from "../../assets/img";
+import { AboutBanner, People, Vip, Vip2, Vip3 } from "../../assets/img";
 
 const About = () => {
   return (
@@ -32,8 +26,7 @@ const About = () => {
             tạo ra từ tinh hoa dược liệu Việt Nam kết hợp với công nghệ sản xuất
             đạt chuẩn thế giới. Green health mong muốn mang đến những chế độ
             dinh dưỡng phù hợp nhất giúp khách hàng chăm sóc sức khỏe ngay khi
-            cơ thể bình thường. để hạn chế tối đa khả năng phải đối mặt với bệnh
-            tật.
+            cơ thể bình thường để đẩy lùi bệnh tật hết mức có thể.
           </p>
         </div>
       </div>
@@ -46,7 +39,7 @@ const About = () => {
             <h2>Mục tiêu</h2>
             <p>
               Green Health đặt mục tiêu trở thành đơn vị sản xuất dược liệu lớn
-              nhất Đông Nam Á vào năm 2030
+              nhất Đông Nam Á vào năm 2030.
             </p>
             <br />
             <h2>Tầm nhìn & sứ mệnh</h2>
