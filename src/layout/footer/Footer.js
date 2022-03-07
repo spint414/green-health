@@ -1,6 +1,7 @@
 import "./style.scss";
 import {
-  Grey,
+  AddressFooter,
+  CallFooter,
   Youtube,
   Facebook,
   LogoGH2,
@@ -36,11 +37,11 @@ const Footer = () => {
                 <p>Công ty cổ phần green health vietnam</p>
                 <div className="company-info">
                   <div className="company-text">
-                    <Grey />
+                    <AddressFooter />
                     <span>Lô 22 - Số 35 Lê Văn Thiêm, Thanh Xuân, Hà Nội</span>
                   </div>
                   <div className="company-text">
-                    <Grey />
+                    <CallFooter />
                     <span>0968876850</span>
                   </div>
                 </div>

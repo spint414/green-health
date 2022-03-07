@@ -6,7 +6,8 @@ import { ReactComponent as Left } from "./Left.svg";
 import { ReactComponent as Right } from "./Right.svg";
 import { ReactComponent as Youtube } from "./Youtube.svg";
 import { ReactComponent as Facebook } from "./Facebook.svg";
-import { ReactComponent as Grey } from "./Grey.svg";
+import { ReactComponent as CallFooter } from "./CallFooter.svg";
+import { ReactComponent as AddressFooter } from "./AddressFooter.svg";
 import { ReactComponent as LogoGH2 } from "./LogoGH2.svg";
 import { ReactComponent as AppleStore } from "./AppleStore.svg";
 import { ReactComponent as Envelop } from "./Envelop.svg";
@@ -36,7 +37,8 @@ export {
     Right,
     Youtube,
     Facebook,
-    Grey,
+    CallFooter,
+    AddressFooter,
     LogoGH2,
     AppleStore,
     Envelop,
